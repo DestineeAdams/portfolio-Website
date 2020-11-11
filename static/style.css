@@ -3,3 +3,49 @@ h1 {
     text-align: center;
     padding: 10px;
 }
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 1000px;
+}
+
+nav {
+    display: block;
+    background-color: rgb(8, 26, 68);
+}
+
+.home {
+    width: 1000;
+    height: 1000;
+    background-color: rgba(81, 81, 192, 0.171);
+}
+
+.project {
+    width: 1000;
+    height: 1000;
+    background-color: rgba(0, 81, 0, 0.171);
+}
+
+.about {
+    width: 1000;
+    height: 1000;
+    background-color: rgba(192, 0, 81, 0.171);
+}
+
+.resume {
+    width: 1000;
+    height: 1000;
+    background-color: rgba(153, 192, 81, 0.171);
+}
+
+.contact {
+    width: 1000;
+    height: 1000;
+    background-color: rgba(81, 138, 192, 0.171);
+}
+
+#pp {
+    background-color: rgba(0, 3, 58, 0.171);
+    left: 1000px;
+}

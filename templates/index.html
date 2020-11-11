@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>TITLE</title>
+    <link rel="javascript" href="{{ url_for('static', filename='scripts.js') }}">
+    <title>Title</title>
 </head>
 <body>
-   <h1>HELLO</h1>
+    <nav>
+        <a href="#h">home</a> |
+        <a href="#p">Projects</a> |
+        <a href="#a">About Me</a> |
+        <a href="#r">resume</a>|
+        <a href="#c">Say Hello</a>
+    </nav>
+
+    <div class="home" id='h'>
+        <h2>HELLO,</h2>
+        <p>Integer eget massa ornare, bibendum elit vel, scelerisque diam.
+            Sed vel mi vel ligula imperdiet consequat vel eu lectus.
+            Pellentesque elit sem, porttitor sit amet rutrum eu, lobortis quis sapien.</p>
+    </div>
+
+    <div class="project" id='p'>
+        <h2>PROJECTS</h2>
+        <p>This is some text in a div element.</p>
+
+        <div id=pp>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                Quisque sed elementum ante. <br>
+                Pellentesque quis magna eu mi varius tincidunt vel sed massa. <br>
+            </p>
+        </div>
+    </div>
+
+    <div class="about" id='a'>
+        <h2>ABOUT ME</h2>
+        <img src="{{ url_for('static', filename='profile.jpg') }}">
+        <p>This is some text in a div element.</p>
+    </div>
+
+    <div class="resume" id='r'>
+        <h2>RESUME</h2>
+        <p>This is some text in a div element.</p>
+    </div>
+
+    <div class="contact" id='c'>
+        <h2>Say Hello</h2>
+        <p>This is some text in a div element.</p>
+    </div>
 </body>
 </html>
