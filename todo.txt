@@ -2,3 +2,4 @@ Project:
   - fix pixel art picture
   - fix name logo
   - start thinking of things to put on the web site
+  - fix background images
