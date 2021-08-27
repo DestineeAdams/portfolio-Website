@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
     min-height: 100%;
     background-image: url(IMG_6983.jpg);
@@ -13,15 +13,16 @@ html{
 
 
 
-body{
+body {
     margin: auto auto;
     padding: auto auto;
-    font-family: Arial;
+    font-family: Lucida Console;
     scroll-behavior: smooth;
     color: rgb(115, 115, 223);
 }
 
 
+/* --------------------------------------------------------------------------------------------- */
 
 #navbarBackround {
     width: 100%;
@@ -30,65 +31,60 @@ body{
     overflow: hidden;
     position: fixed;
     top: 0;
-    
+
 }
 
 
-
-
-#navbarLeft {
-    color: rgb(231, 217, 19);
-}
-
-#navbarRight {
+.navbarRight {
     color: rgb(59, 212, 54);
-    
-}
-
-ul{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    color: rgb(6, 77, 6);
-}
-
-
-
-li{
-    float: left;
-    text-align: center;
-}
-
-
-#navlink{
-    padding: 10px;
-    width: 100px;
-    display: block;
-    text-decoration: none;
-    color: #fff;
     text-transform: uppercase;
-    font-weight:  bold;
-    text-decoration: none;
-}  
+    font-size: 20px;
+    text-align: right;
+}
 
-#navlink:hover{
-    padding: 10px;
-    width: 100px;
-    display: block;
+ul {
+    list-style-type: none;
+    margin: 25px 50px 25px 10px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+
+
+#navlink {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#navlink:hover {
+
     text-decoration: none;
     color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    font-weight:  bold;
-}  
 
+}
 
+/* --------------------------------------------------------------------------------------------- */
 
 #section1 {
     width: 100%;
     height: 700px;
-    display: inline-block; 
+    display: inline-block;
 
 }
+
+#profileImg {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
 
 #section2 {
     width: 100%;
@@ -97,12 +93,16 @@ li{
 
 }
 
+/* --------------------------------------------------------------------------------------------- */
+
 #section3 {
     width: 100%;
     height: 700px;
     display: inline-block;
-    
+
 }
+
+/* --------------------------------------------------------------------------------------------- */
 
 #section4 {
     width: 100%;
@@ -110,90 +110,24 @@ li{
     display: inline-block;
 }
 
+
+/* --------------------------------------------------------------------------------------------- */
+
 #section5 {
     width: 100%;
     height: 700px;
     display: inline-block;
 }
 
-h1{
-    margin: 100px;
-    text-align: center;
-    padding: 0;
-
-}
-
-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 1000px;
-}
-
-
-
-#contactFrom {
-    background-color:white;
-    width: 28%;
-    height: 50%;
-
-    padding: 0px 50px 0px 50px;
-    margin: -50px 0px 0px 200px;
-
-    float:left
-}
-
-#socialsBox {
-    background-color:rgb(255, 255, 255);
-    color:rgb(115, 115, 223);
-    width: 20%;
-    height: 20%;
-
-    float: left;
-
-    padding: 0px 50px 100px 30px;
-
-    margin: -49px 0px 0px 80px;
-    
-
-}
-
 #socialsBoximg {
-    width: 30px; 
-    height: 30px;
-    float: left;
-    
+    width: 20px; 
+    height: 20px;
 }
 
-#socialsBoxlink {
-    color: rgb(115, 115, 223);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight:  bold
-}
 
-#socialsBoxlink:visited {
-    color: rgb(141, 141, 219);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight:  bold
-}
-
-#socialsBoxlink:hover {
-    color: rgb(115, 115, 223);
-    text-decoration: underline;
-    text-transform: uppercase;
-    font-weight:  bold
-}
-
-#socialsBoxicons{
-    float: left;
-    padding-top: 5px;
-
-}
-
-#socialsBoxtext{
-    float: left;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-left: 10px;
+#contactFrom, #socialsBox{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 30%;
+    padding: 20px;
 }

@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="javascript" href="scripts.js">
     <title>Title</title>
@@ -12,35 +13,28 @@
 
     <nav id="navbarBackround">
 
-        <div id="navbarLeft">
-            <ul>
-                <li>
-                    <img src="headerLogo.png">
-                </li>
-            </ul>
-        </div>
 
-        <div id="navbarRight">
-            <ul>
+        <div class="navbarRight">
+            <ul class="navbarRight">
 
                 <li>
-                    <a id = "navlink" href="#section1">home</a>
+                    <a id="navlink" href="#section1">home</a>
                 </li>
 
                 <li>
-                    <a id = "navlink" href="#section2">Projects</a>
+                    <a id="navlink" href="#section2">Projects</a>
                 </li>
 
                 <li>
-                    <a id = "navlink" href="#section3">About Me</a>
+                    <a id="navlink" href="#section3">About Me</a>
                 </li>
 
                 <li>
-                    <a id = "navlink" href="#section4">RESUME</a>
+                    <a id="navlink" href="#section4">RESUME</a>
                 </li>
 
                 <li>
-                    <a id = "navlink" href="#section5">Say Hello</a>
+                    <a id="navlink" href="#section5">Say Hello</a>
                 </li>
 
             </ul>
@@ -49,16 +43,19 @@
     </nav>
 
     <div id='section1'>
-        <h1>HOME</h1>
-        <img src="profile2.png">
+        <div class="homeContent">
+            <p style="font-size: 100px">DESTINEE ADAMS</p>
+            <p style="font-size: 25px">Software Developer</p>
+            <img src="img\profilePhoto.png" id="profileImg" \>
+        </div>
     </div>
 
     <div id='section2'>
-        <h1>PROJECTS</h1>
+        <h1 style="text-align: center;">PROJECTS</h1>
     </div>
 
     <div id='section3'>
-        <h1>ABOUT ME</h1>
+        <h1 style="text-align: center;">ABOUT ME</h1>
         <h4>Junior - Suny old westbury</h4>
         <h4>B.S. in Computer science</h4>
         <p>
@@ -70,18 +67,18 @@
     </div>
 
     <div id='section4'>
-        <h1>RESUME</h1>
+        <h1 style="text-align: center;">RESUME</h1>
         <p>
             RESUME DOWNLOAD
         </p>
     </div>
 
     <div id='section5'>
-        <h1>Say Hello</h1>
+        <h1 style="text-align: center;">Say Hello</h1>
 
         <div id="contactFrom">
 
-            <h3 style="text-align: center;">CONTACT</h3>
+            <h3 style="text-align: center;">CONTACT ME</h3>
 
             <form action="mailto:adestinee37@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
 
@@ -98,51 +95,37 @@
                     <textarea name="Contact-Message" placeholder="enter your massage here" rows="6"
                         cols="51"></textarea>
                 </p>
-                <button type="submit" value="Submit">Send</button>
+                <button type="submit" value="Submit">  Send  </button>
             </form>
 
         </div>
 
         <div id="socialsBox">
+            
             <h3 style="text-align: center;">
                 SOCIALS
             </h3>
 
-            <div id = "socialsBoxicons">
-                <p>
-                    <img id="socialsBoximg"
-                        src="img\1872635_social media_software_github_open source_developer_icon.png" alt="github logo">
-                </p>
+            <p>
+                <img id="socialsBoximg" src="img\1872635_social media_software_github_open source_developer_icon.png"
+                    alt="github logo">
+                <a id="socialsBoxlink" href="https://github.com/DestineeAdams"> github </a>
+            </p>
 
-                    <br>
 
-                <p>
-                    <img id="socialsBoximg" src="img\1727490_linkedin_social media_job_network_icon.png"
-                        alt="linkedin logo">
+            <p>
+                <img id="socialsBoximg" src="img\1727490_linkedin_social media_job_network_icon.png"
+                    alt="linkedin logo">
+                <a id="socialsBoxlink" href="https://www.linkedin.com/in/destinee-adams-7b4266192/"> linkedin </a>
 
-                </p>
+            </p>
 
-                    <br>
 
-                <p>
-                    <img id="socialsBoximg" src="img\icons8-email-64.png" alt="email link">
-                </p>
-            </div>
+            <p>
+                <img id="socialsBoximg" src="img\icons8-email-64.png" alt="email link">
+                <a id="socialsBoxlink" href="mailto:adestinee37@gmail.com"> adestinee37@gmail.com </a>
 
-            <div id = "socialsBoxtext">
-
-                <p>
-                    <a id="socialsBoxlink" href="https://github.com/DestineeAdams"> github </a>
-                </p>
-                   
-                <p>
-                    <a id="socialsBoxlink" href="https://www.linkedin.com/in/destinee-adams-7b4266192/"> linkedin </a>
-                </p>
-                
-                <p>
-                    <a id="socialsBoxlink" href="mailto:adestinee37@gmail.com"> adestinee37@gmail.com </a>
-                </p>
-            </div>
+            </p>
 
 
         </div>
