@@ -1,0 +1,142 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    margin: auto;
+    font-family: Lucida Console, Arial, Helvetica, sans-serif;
+
+    scroll-behavior: smooth;
+    color: #e2dede;
+    background-color: black;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+image {
+    width: 100%;
+}
+
+
+.nar-container {
+    background-color: #aa7dce;
+
+    a {
+        color: #000000;
+
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+
+    ul {
+        display: flex;
+
+        a {
+            display: block;
+            padding: 0 1em;
+        }
+    }
+
+}
+
+/* ---------------------------------------------------------------------------- */
+.section2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.heading {
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.sub-heading {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.introduction {
+    font-size: large;
+    text-align: center;
+}
+
+
+
+
+
+// phones
+@media screen and (min-width: 0px) and (max-width: 481px) {
+    
+    .section1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .heading {
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .sub-heading {
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .introduction {
+        font-size: large;
+        text-align: center;
+    }
+
+    /* ---------------------------------------------------------------------------- */
+    .section2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}

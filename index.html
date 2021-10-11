@@ -4,133 +4,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles\style.css">
     <link rel="javascript" href="scripts.js">
     <title>Title</title>
 </head>
 
 <body>
 
-    <nav id="navbarBackround">
+    <div class="nar-container">
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="#section1">home</a> </li>
+                    <li> <a href="#section2">projects</a> </li>
+                    <li> <a href="#section3">resume</a> </li>
+                    <li> <a href="#section4">contact</a> </li>
+                </ul>
+            </nav>
+        </header>
 
-
-        <div class="navbarRight">
-            <ul class="navbarRight">
-
-                <li>
-                    <a id="navlink" href="#section1">home</a>
-                </li>
-
-                <li>
-                    <a id="navlink" href="#section2">Projects</a>
-                </li>
-
-                <li>
-                    <a id="navlink" href="#section3">About Me</a>
-                </li>
-
-                <li>
-                    <a id="navlink" href="#section4">RESUME</a>
-                </li>
-
-                <li>
-                    <a id="navlink" href="#section5">Say Hello</a>
-                </li>
+        <div class="social-header">
+            <ul>
+                <li> <a href="#"><img src="img\emailIcon.png" alt="email"></a></li>
+                <li> <a href="https://github.com/DestineeAdams"><img src="img\githubIcon.png" alt="github"></a></li>
+                <li> <a href="#"><img src="img\linkedinIcon.png" alt="linkedin"></a></li>
 
             </ul>
         </div>
 
-    </nav>
+    </div>
 
-    <div id='section1'>
-        <div class="homeContent">
-            <p style="font-size: 100px">DESTINEE ADAMS</p>
-            <p style="font-size: 25px">Software Developer</p>
-            <img src="img\profilePhoto.png" id="profileImg" \>
+    <section class='section1'>
+        <div class="heading">
+            <h1>DESTINEE ADAMS</h1>
         </div>
-    </div>
 
-    <div id='section2'>
-        <h1 style="text-align: center;">PROJECTS</h1>
-    </div>
+        <div class="sub-heading">
+            <h3>Software Developer</h3>
+        </div>
 
-    <div id='section3'>
-        <h1 style="text-align: center;">ABOUT ME</h1>
-        <h4>Junior - Suny old westbury</h4>
-        <h4>B.S. in Computer science</h4>
-        <p>
-            skills
-        </p>
+        <div class="profile-picture">
+            <img src="img\profilePhoto.png" id="profileImg">
+        </div>
 
+        <div class="introduction">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ullam, ex voluptates nostrum explicabo placeat eum ducimus
+                repellendus perferendis harum minima impedit amet? Nostrum, nobis
+                blanditiis laborum similique ad autem quia.
+            </p>
+        </div>
+    </section>
 
+    <section class="section2">
+        <h1>projects</h1>
 
-    </div>
+        <div class="project-conainer1">
+            <img src="img\moon.jpg" alt="moon">
+            <h3>Lorem</h3>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, fuga?</h5>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aliquid incidunt saepe totam et
+                iusto itaque non necessitatibus expedita vitae?
+            </p>
 
-    <div id='section4'>
-        <h1 style="text-align: center;">RESUME</h1>
-        <p>
-            RESUME DOWNLOAD
-        </p>
-    </div>
-
-    <div id='section5'>
-        <h1 style="text-align: center;">Say Hello</h1>
-
-        <div id="contactFrom">
-
-            <h3 style="text-align: center;">CONTACT ME</h3>
-
-            <form action="mailto:adestinee37@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
-
-                <p>
-                    <input type="text" size="30" name="Contact-Name" placeholder="first name">
-                    <input type="text" size="30" name="Contact-Name" placeholder="last name">
-                </p>
-
-                <p>
-                    <input type="email" size="66" name="Contact-Email" placeholder="Email">
-                </p>
-
-                <p>
-                    <textarea name="Contact-Message" placeholder="enter your massage here" rows="6"
-                        cols="51"></textarea>
-                </p>
-                <button type="submit" value="Submit">  Send  </button>
+            <form action="https://github.com/DestineeAdams">
+                <input type="submit" value="my github" />
             </form>
+        <div>
 
-        </div>
-
-        <div id="socialsBox">
-            
-            <h3 style="text-align: center;">
-                SOCIALS
-            </h3>
-
+        <div class="project-conainer1">
+            <img src="img\moon.jpg" alt="moon">
+            <h3>Lorem</h3>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, fuga?</h5>
             <p>
-                <img id="socialsBoximg" src="img\1872635_social media_software_github_open source_developer_icon.png"
-                    alt="github logo">
-                <a id="socialsBoxlink" href="https://github.com/DestineeAdams"> github </a>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aliquid incidunt saepe totam et
+                iusto itaque non necessitatibus expedita vitae?
             </p>
 
+            <form action="https://github.com/DestineeAdams">
+                <input type="submit" value="my github" />
+            </form>
+        <div>
 
+        <div class="project-conainer1">
+            <img src="img\moon.jpg" alt="moon">
+            <h3>Lorem</h3>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, fuga?</h5>
             <p>
-                <img id="socialsBoximg" src="img\1727490_linkedin_social media_job_network_icon.png"
-                    alt="linkedin logo">
-                <a id="socialsBoxlink" href="https://www.linkedin.com/in/destinee-adams-7b4266192/"> linkedin </a>
-
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aliquid incidunt saepe totam et
+                iusto itaque non necessitatibus expedita vitae?
             </p>
 
+            <form action="https://github.com/DestineeAdams">
+                <input type="submit" value="my github" />
+            </form>
+        <div>
 
-            <p>
-                <img id="socialsBoximg" src="img\icons8-email-64.png" alt="email link">
-                <a id="socialsBoxlink" href="mailto:adestinee37@gmail.com"> adestinee37@gmail.com </a>
+    </section>
 
-            </p>
+    <section class="section3">
+        <h1>resume download</h1>
+
+        <button type="button">
+            resume
+        </button>
+
+    </section>
 
 
-        </div>
+    <section class="section4">
+        <h1>contact</h1>
 
-    </div>
+        <h6>email form</h6>
+
+        <form action="post">
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="emailbody">content:</label><br>
+            <textarea></textarea><br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        sfk;oefkolz;dkl;sdsl;l;
+
+    </footer>
 
 </body>
 
