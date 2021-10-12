@@ -23,7 +23,7 @@ h2 {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 
 ul {
@@ -64,10 +64,6 @@ header ul a {
 .nar-container a {
   color: #e2dede;
   font-size: 1.2em;
-}
-
-.nar-container img {
-  width: 100%;
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -138,9 +134,21 @@ section {
   margin: 2%;
 }
 
+.project-conainer img {
+  margin-top: 0.5em;
+  border-radius: 1em;
+  width: 75%;
+}
+
 .project-conainer a {
   border-radius: 1em;
   margin-top: 1em;
+}
+
+.project-conainer h1,
+.project-conainer h5,
+.project-conainer p {
+  padding: 0em 1em 0em 1em;
 }
 
 .project-conainer button {
@@ -198,32 +206,12 @@ section {
 
 .section4 {
   background-color: #1f1e1e;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.form-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -231,9 +219,10 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  row-gap: 1em;
 }
 
-.form-container {
+.formbody {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,12 +230,36 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+}
+
+.formbody input[type=text] {
+  width: 19em;
+  height: 2em;
+  border: solid 0.2em #f5f5f5;
+  font-size: 100%;
+  color: #f5f5f5;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.formbody textarea {
+  width: 19em;
+  height: 10em;
+  border: solid 0.2em #f5f5f5;
+  color: #f5f5f5;
+  font-size: 125%;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.formbody input[type=submit] {
+  border-radius: 0.3em;
+  background-color: transparent;
+  border-color: #f5f5f5;
+  color: white;
+  font-size: 1.2em;
+  width: auto;
+  height: auto;
 }
 
 footer {

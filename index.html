@@ -15,10 +15,10 @@
         <header>
             <nav>
                 <ul>
-                    <li> <a href="#section1">home</a> </li>
-                    <li> <a href="#section2">projects</a> </li>
-                    <li> <a href="#section3">resume</a> </li>
-                    <li> <a href="#section4">contact</a> </li>
+                    <li> <a href="#home">home</a> </li>
+                    <li> <a href="#projects">projects</a> </li>
+                    <li> <a href="#resume">resume</a> </li>
+                    <li> <a href="#contact">contact</a> </li>
                 </ul>
             </nav>
         </header>
@@ -26,7 +26,7 @@
 
     </div>
 
-    <section class='section1'>
+    <section class='section1' id="home">
         <div class="heading">
             <h1>DESTINEE ADAMS</h1>
         </div>
@@ -49,7 +49,7 @@
         </div>
     </section>
 
-    <section class="section2">
+    <section class="section2" id="projects">
         <h2>PROJECTS</h2>
 
 
@@ -57,12 +57,17 @@
 
             <div class="projcet">
                 <img src="img\moon.jpg" alt="moon">
-                <h3>Lorem</h3>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, fuga?</h5>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aliquid incidunt saepe totam et
-                    iusto itaque non necessitatibus expedita vitae?
-                </p>
+
+                <div class="projectInfo">
+                    <h3>Lorem</h3>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, fuga?</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aliquid incidunt saepe totam et
+                        iusto itaque non necessitatibus expedita vitae?
+                    </p>
+
+                </div>
+
 
                 <button type="button"> demo </button>
             </div>
@@ -84,65 +89,61 @@
 
     </section>
 
-    <section class="section3">
+    <section class="section3" id="resume">
         <h2>resume</h2>
 
         <div class="button-container">
 
             <button type="button"> resume </button>
             <a href="https://github.com/DestineeAdams"><img src="img\githubIcon.png" alt="github"></a>
-            <a href="#"><img src="img\linkedinIcon.png" alt="linkedin"></a>
+            <a href="https://www.linkedin.com/in/destinee-adams-7b4266192/"><img src="img\linkedinIcon.png" alt="linkedin"></a>
         </div>
 
 
     </section>
 
 
-    <section class="section4">
+    <section class="section4" id="contact">
         <h2>SAY HELLO</h2>
 
         <div class="container">
-            <div class="form-container">
-                <div class="formheader">
-                    <p>contact Me</p>
-                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, illum!</p>
-                </div>
+            <div class="formintro">
 
-                <div class="formbody">
-                    <form action="post">
-
-                        <label for="fname">Full Name</label><br>
-                        <input type="text" id="fname" name="fname"><br><br>
-
-                        <label for="Company">Company Name</label><br>
-                        <input type="text" id="Company" name="Company"><br><br>
-
-                        <label for="subject">Suject</label><br>
-                        <input type="text" id="subject" name="subject"><br><br>
-
-                        <label for="emailbody">Message</label><br>
-                        <textarea></textarea><br><br>
-
-                        <input type="submit" value="Submit">
-
-                    </form>
-                </div>
-
+                <p>contact Me</p>
+                <p>Lorem ipsum dolor sit amet.</p>
             </div>
 
+            <div class="formbody">
 
-            <div class="info-container">
-                <p> contact info</p>
+                <form action="post">
 
-                <div class="emailLine">
-                    <img src="img\emailIcon.png" alt="icon">
-                    <p> adestinee37@gmail.com</p>
-                </div>
+                   
+                    <input type="text" id="fname" name="fname" placeholder="John Doe">
+                    
+                    <br>
+                    <br>
+
+                    <input type="text" id="Company" name="Company" placeholder="Company Name (not required)">
+
+                    <br>
+                    <br>
+
+                    <input type="text" id="subject" name="subject" placeholder="Suject">
+
+                    <br>
+                    <br>
+
+                    <textarea placeholder="Suject"></textarea>
+                    
+                    <br>
+                    <br>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+
             </div>
-
-
         </div>
-
     </section>
 
     <footer>
