@@ -52,14 +52,14 @@ header {
 
         a {
             display: block;
-            padding: 0 .3em;
+            padding: 0.2em;
         }
     }
 
 
 }
 
-.nar-container {
+.nav-container {
     background-color: #aa7dce;
 
 
@@ -94,7 +94,7 @@ section {
 
    
     h1 {
-        font-size: xxx-large;
+        font-size: 400%;
         text-align: center;
     }
 
@@ -131,6 +131,7 @@ section {
     width: 75%;
 
     .projcet {
+        
         background-color: #aa7dce;
         border-radius: 1em;
         margin: 2%;
@@ -269,3 +270,256 @@ section {
 footer {
     background-color: #aa7dce;
 }
+
+@media  screen and (min-width: 320px) and (max-width: 480px) {
+    
+    .nav-container{
+        a{
+            font-size: 1.1em;
+        }
+    }
+
+    .project-conainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projcet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 15em;
+        height: 25em;
+
+        img {
+            padding: 1%;
+            width: 30%;
+        }
+
+        p {
+            font-size: small;
+        }
+
+        button {
+            width: 5em;
+            height: 2em;
+        }
+    }
+
+
+
+    .formbody {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        input[type=text] {
+            width: 15em;
+            height: 2em;
+            border: solid 0.2em #f5f5f5;
+    
+            font-size: 100%;
+    
+            color: #f5f5f5;
+    
+            border-radius: 10px;
+            background-color: transparent;
+    
+            
+    
+        }
+    
+    
+        textarea {
+            width: 14.5em;
+            // width: 60%;
+            height: 10em;
+            border: solid 0.2em#f5f5f5;
+            color: #f5f5f5;
+    
+            font-size: 125%;
+    
+            border-radius: 10px;
+            background-color: transparent;
+        }
+    
+    
+        input[type=submit] {
+            border-radius: 0.3em;
+            background-color: transparent;
+            border-color: #f5f5f5;
+            color: white;
+            font-size: 1.2em;
+    
+            width: auto;
+            height: auto;
+        }
+    }
+    
+}
+
+
+@media  screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .project-conainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projcet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        width: 250%;
+        height: 25%;
+
+        img{
+            width: 75%;
+        }
+    
+    }
+
+
+    
+}
+
+@media  screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .project-conainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projcet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        width: 35em;
+
+        img{
+            width: 10em;
+        }
+    
+    }
+}
+
+@media  screen and (min-width: 1024px) and (max-width: 1280px) {
+    
+    h2{
+        font-size: 5em;
+    }
+    .project-conainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .projcet {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        width: 25em;
+
+        img{
+            width: 10em;
+        }
+    
+    }
+
+
+
+    .formbody {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        input[type=text] {
+            width: 25em;
+            height: 2em;
+            border: solid 0.2em #f5f5f5;
+    
+            font-size: 100%;
+    
+            color: #f5f5f5;
+    
+            border-radius: 10px;
+            background-color: transparent;
+    
+            
+    
+        }
+    
+    
+        textarea {
+            width: 24.5em;
+            // width: 60%;
+            height: 10em;
+            border: solid 0.2em#f5f5f5;
+            color: #f5f5f5;
+    
+            font-size: 125%;
+    
+            border-radius: 10px;
+            background-color: transparent;
+        }
+    
+    
+        input[type=submit] {
+            border-radius: 0.3em;
+            background-color: transparent;
+            border-color: #f5f5f5;
+            color: white;
+            font-size: 1.2em;
+    
+            width: auto;
+            height: auto;
+        }
+    }
+    
+}
+
+@media  screen and (min-width: 1280px) {
+    
+    .project-conainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .projcet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        width: 25em;
+
+        img{
+            width: 10em;
+        }
+    
+    }
+}
+
