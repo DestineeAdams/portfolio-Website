@@ -58,7 +58,10 @@ header ul a {
 }
 
 .nav-container {
-  background-color: #aa7dce;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #9f60d3;
 }
 
 .nav-container a {

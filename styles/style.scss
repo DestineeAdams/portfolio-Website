@@ -39,12 +39,14 @@ a {
 }
 
 
-header {
 
+header {
+    // background-color: #9f60d3;
 
     display: flex;
     justify-content: space-between;
     padding: 1em;
+ 
 
 
     ul {
@@ -60,7 +62,10 @@ header {
 }
 
 .nav-container {
-    background-color: #aa7dce;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    background-color: #9f60d3;
 
 
     a {

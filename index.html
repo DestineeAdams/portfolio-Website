@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles\style.css">
     <link rel="javascript" href="scripts.js">
-    <title>Title</title>
+    <link rel="shortcut icon" type="image/jpg" href="img\favicon-32x32.png"/>
+    <title>Destinee Portfolio</title>
 </head>
 
 <body>
+
+   
 
     <div class="nav-container">
         <header>
@@ -96,9 +99,25 @@
                     alt="linkedin"></a>
         </div>
 
+        <!-- <div class="skillsbox">
+
+            <ul>
+                <li>skill #1</li>
+                <li>skill #2</li>
+                <li>skill #3</li>
+                <li>skill #4</li>
+                <li>skill #5</li>
+            </ul>
+        </div> -->
 
     </section>
 
+    <?php
+
+    echo 'hello, world?';
+
+    ?>
+    
 
     <section class="section4" id="contact">
         <h2>SAY HELLO</h2>
@@ -112,7 +131,7 @@
 
             <div class="formbody">
 
-                <form action="post">
+                <form action="email.php">
 
 
                     <input type="text" id="fname" name="fname" placeholder="John Doe">
@@ -130,7 +149,7 @@
                     <br>
                     <br>
 
-                    <textarea placeholder="Suject"></textarea>
+                    <textarea placeholder="message" name="message"></textarea>
 
                     <br>
                     <br>
