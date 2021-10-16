@@ -131,7 +131,7 @@
 
             <div class="formbody">
 
-                <form action="email.php">
+                <form action="/email.php" method="POST">
 
 
                     <input type="text" id="fname" name="fname" placeholder="John Doe">
@@ -140,6 +140,11 @@
                     <br>
 
                     <input type="text" id="Company" name="Company" placeholder="Company Name (not required)">
+
+                    <br>
+                    <br>
+
+                    <input type="text" id="userEmail" name="userEmail" placeholder="your email">
 
                     <br>
                     <br>

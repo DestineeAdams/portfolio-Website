@@ -3,3 +3,8 @@ Project:
 
   - nav bar need impovement
   -skills div in reusume section
+
+
+
+
+project logs:
