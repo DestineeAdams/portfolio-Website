@@ -92,7 +92,7 @@
         <h2>RESUME</h2>
 
         <div class="button-container">
-            <button type="submit" onclick="window.open('\files\resume.pdf')"> resume </button>
+            <button type="submit" onclick="window.open('files/resume.pdf')"> resume </button>
 
             <a href="https://github.com/DestineeAdams"><img src="img\githubIcon.png" alt="github"></a>
             <a href="https://www.linkedin.com/in/destinee-adams-7b4266192/"><img src="img\linkedinIcon.png"
