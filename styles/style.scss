@@ -372,7 +372,7 @@ footer {
     
     .project-conainer{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -384,11 +384,11 @@ footer {
         align-items: center;
         flex-wrap: wrap;
 
-        width: 250%;
-        height: 25%;
+        width: 100%;
+        height: 15%;
 
         img{
-            width: 75%;
+            width: 50%;
         }
     
     }

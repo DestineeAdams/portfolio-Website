@@ -8,3 +8,5 @@ Project:
 
 
 project logs:
+
+  -wamp php mail not working
