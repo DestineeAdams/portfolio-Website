@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles\style.css">
     <link rel="javascript" href="scripts.js">
-    <link rel="shortcut icon" type="image/jpg" href="img\favicon-32x32.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="img\favicon-32x32.png" />
     <title>Destinee Portfolio</title>
 </head>
 
 <body>
 
-   
+
 
     <div class="nav-container">
         <header>
@@ -50,20 +50,19 @@
         <div class="project-conainer">
 
             <div class="projcet">
-                <img src="img\moon.jpg" alt="moon">
+                <img id = "gifimg" src="img\demogif1.gif" alt="gif of this site">
 
                 <div class="projectInfo">
-                    <h3>Lorem</h3>
-                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, fuga?</h5>
+                    <h3>This Website</h3>
+                    <h5></h5>Made this Portfolio site from scratch to show off my projects</h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aliquid incidunt saepe totam et
-                        iusto itaque non necessitatibus expedita vitae?
+                        The technologies used: html, JavaScript , CSS, PHP, Nginx, Google Cloud Platform and, formsubmit
                     </p>
 
                 </div>
 
-                <button type="submit" onclick="window.open('https://github.com/DestineeAdams')"> demo </button>
-
+                
+                <button type="submit" onclick="window.open('https://github.com/DestineeAdams/portfolio-Website')"> VIEW GIT REPO </button>
             </div>
 
             <div class="projcet">
@@ -79,6 +78,7 @@
 
                 </div>
 
+                
                 <button type="submit" onclick="window.open('https://github.com/DestineeAdams')"> demo </button>
 
             </div>
@@ -112,12 +112,6 @@
 
     </section>
 
-    <?php
-
-    echo 'hello, world?';
-
-    ?>
-    
 
     <section class="section4" id="contact">
         <h2>SAY HELLO</h2>
@@ -131,9 +125,7 @@
 
             <div class="formbody">
 
-                <form action="/email.php" method="POST">
-
-
+                <!-- <form action="email.php" method="POST">
                     <input type="text" id="fname" name="fname" placeholder="John Doe">
 
                     <br>
@@ -155,6 +147,37 @@
                     <br>
 
                     <textarea placeholder="message" name="message"></textarea>
+
+                    <br>
+                    <br>
+
+                    <input type="submit" value="Submit">
+
+                </form> -->
+
+                <form action="https://formsubmit.co/adestinee37@gmail.com" method="POST">
+
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+                    <br>
+                    <br>
+
+                    <input type="text" id="Company" name="Company" placeholder="Company Name (not required)">
+
+                    <br>
+                    <br>
+
+                    <input type="text" id="userEmail" name="userEmail" placeholder="your email" required>
+
+                    <br>
+                    <br>
+
+                    <input type="text" id="subject" name="subject" placeholder="Suject" required>
+
+                    <br>
+                    <br>
+
+                    <textarea placeholder="message" name="message" required></textarea>
 
                     <br>
                     <br>

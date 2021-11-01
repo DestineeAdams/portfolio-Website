@@ -1,12 +1,11 @@
 Project:
-  - start thinking of things to put on the web site
+  - skills div in reusume section
+  - setup email server
 
-  - nav bar need impovement
-  -skills div in reusume section
 
 
 
 
 project logs:
 
-  -wamp php mail not working
+  - wamp php mail not working
