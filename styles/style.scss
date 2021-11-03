@@ -131,6 +131,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
 
 
     width: 75%;
@@ -406,7 +407,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .projcet {
@@ -434,7 +435,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         
     }
 
@@ -511,7 +512,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         
     }
 
