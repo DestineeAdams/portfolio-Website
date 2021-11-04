@@ -325,7 +325,7 @@ footer {
   }
   .projcet img {
     padding: 1%;
-    width: 30%;
+    width: 60%;
   }
   .projcet p {
     font-size: small;
@@ -411,7 +411,7 @@ footer {
     height: 15%;
   }
   .projcet img {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -450,7 +450,7 @@ footer {
     width: 35em;
   }
   .projcet img {
-    width: 10em;
+    width: 80%;
   }
 }
 
@@ -492,7 +492,7 @@ footer {
     width: 25em;
   }
   .projcet img {
-    width: 10em;
+    width: 70%;
   }
   .formbody {
     display: -webkit-box;
@@ -570,7 +570,7 @@ footer {
     width: 25em;
   }
   .projcet img {
-    width: 10em;
+    width: 60%;
   }
 }
 /*# sourceMappingURL=style.css.map */
