@@ -4,7 +4,7 @@
 
 \## project status
 ~~website is still in the development stage~~
-the website is finish :grin: :relaxed: :fire:
+the website is finish :grin:
 
 I will make a template version soon but for now of to the next project :runner:
 
