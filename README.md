@@ -2,7 +2,7 @@
 
 
 
-\## project status \
+\## project status \\
  ~~website is still in the development stage~~ \\
  the website is finish :grin: \\
 
