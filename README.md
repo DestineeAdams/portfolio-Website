@@ -3,10 +3,10 @@
 
 
 \## project status <br>
- ~~website is still in the development stage~~ \
- the website is finish :grin: \
+ ~~website is still in the development stage~~ \\
+ the website is finish :grin: \\
 
- I will make a template version soon but for now off to the next project :runner: \
+ I will make a template version soon but for now off to the next project :runner: \\
 
  see completed site here: 
 http://www.destineeadams.space/ 
@@ -14,7 +14,7 @@ http://www.destineeadams.space/
 \## TODO
 
 - [x] Design
-- [x] Mockups
+- [x] Mockups https://www.canva.com/design/DAEp2Ge3ftg/XPxRdl7IvPqe12gZZ4BWjA/view?utm_content=DAEp2Ge3ftg&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu
 - [x] setup sever
 - [x] develop
    - [X] write html - 1
