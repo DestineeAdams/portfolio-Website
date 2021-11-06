@@ -28,7 +28,7 @@ http://www.destineeadams.space/
 - [x] launch :thumbsup:
 
 
-\## link and resoures 
+\## useful link and resoures 
 
 - link to my [mockups](https://www.canva.com/design/DAEp2Ge3ftg/XPxRdl7IvPqe12gZZ4BWjA/view?utm_content=DAEp2Ge3ftg&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu
 ) 
@@ -46,6 +46,4 @@ http://www.destineeadams.space/
 - sever setup
  - [9 Popular Nginx Commands You Should Know](https://www.keycdn.com/support/nginx-commands?utm_source=pocket_mylist)
  - [How to Install Nginx on the Raspberry Pi: Raspberry Pi Nginx Web Server](https://www.electromaker.io/tutorial/blog/how-to-install-nginx-on-the-raspberry-pi-raspberry-pi-nginx-web-server?utm_source=pocket_mylist)
-
- - []()
  
