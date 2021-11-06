@@ -2,14 +2,16 @@
 
 
 
-\## project status
-- ~~website is still in the development stage~~
-- the website is finish :grin:
+\## project status <br>
+ ~~website is still in the development stage~~ <br>
+- the website is finish :grin: <br>
 
-- I will make a template version soon but for now of to the next project :runner:
+- I will make a template version soon but for now of to the next project :runner: <br>
 
-- see completed site here:
+- see completed site here: 
 http://www.destineeadams.space/
+
+<br>
 
 \## TODO
 
