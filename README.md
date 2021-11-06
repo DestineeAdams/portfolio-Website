@@ -23,6 +23,6 @@ http://www.destineeadams.space/
    - [X] set up mail form - 4
 - [x] Testing
     - [X] test on desktop - 1
-    - [ ] test on table  - 2
+    - [ ] test on tablet  - 2
     - [X] test on mobile  - 3
 - [x] launch :thumbsup:
