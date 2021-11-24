@@ -29,6 +29,8 @@ http://www.destineeadams.space/
    - [X] write CSS - 2
    - [X] set up links - 3
    - [X] set up mail form - 4
+   - [ ] set up email confirmation - 4
+
 - [x] Testing
     - [X] test on desktop - 1
     - [ ] test on tablet  - 2

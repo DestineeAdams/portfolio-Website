@@ -47,6 +47,7 @@
         $body .=  "this is and automic reply" . "\r\n";
         $body .=  "- Destinee Adams" . "\r\n";
 
+        
         mail($to, "thank you", $body);
 
         echo "done";

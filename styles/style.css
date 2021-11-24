@@ -86,7 +86,6 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 1px;
 }
 
 .section1 h1 {
@@ -288,6 +287,9 @@ footer {
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  #profileImg {
+    width: 30%;
+  }
   .nav-container a {
     font-size: 1.1em;
   }
@@ -376,6 +378,9 @@ footer {
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  #profileImg {
+    width: 25%;
+  }
   .project-conainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -416,6 +421,9 @@ footer {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  #profileImg {
+    width: 25%;
+  }
   .project-conainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -455,6 +463,9 @@ footer {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
+  #profileImg {
+    width: 15%;
+  }
   h2 {
     font-size: 5em;
   }
@@ -536,6 +547,9 @@ footer {
 }
 
 @media screen and (min-width: 1280px) {
+  #profileImg {
+    width: 15%;
+  }
   .project-conainer {
     display: -webkit-box;
     display: -ms-flexbox;
