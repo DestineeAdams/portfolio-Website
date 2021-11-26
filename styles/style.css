@@ -286,9 +286,109 @@ footer {
   background-color: #aa7dce;
 }
 
+@media screen and (min-width: 260px) and (max-width: 320px) {
+  #profileImg {
+    width: 80%;
+    height: 80%;
+  }
+  .nav-container a {
+    font-size: 0.9em;
+  }
+  .project-conainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section1 h1 {
+    margin-top: 25%;
+    font-size: x-large;
+  }
+  .section1 h3 {
+    font-size: medium;
+  }
+  .projcet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 15em;
+    height: 25em;
+  }
+  .projcet img {
+    padding: 1%;
+    width: 60%;
+  }
+  .projcet p {
+    font-size: small;
+  }
+  .projcet button {
+    width: 9em;
+    height: 3em;
+  }
+  .formbody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .formbody input[type=text] {
+    width: 15em;
+    height: 2em;
+    border: solid 0.2em #f5f5f5;
+    font-size: 100%;
+    color: #f5f5f5;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  .formbody textarea {
+    width: 14.5em;
+    height: 10em;
+    border: solid 0.2em #f5f5f5;
+    color: #f5f5f5;
+    font-size: 125%;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  .formbody input[type=submit] {
+    border-radius: 0.3em;
+    background-color: transparent;
+    border-color: #f5f5f5;
+    color: white;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
   #profileImg {
-    width: 30%;
+    width: 70%;
+    height: 70%;
   }
   .nav-container a {
     font-size: 1.1em;
@@ -333,8 +433,8 @@ footer {
     font-size: small;
   }
   .projcet button {
-    width: 6.5em;
-    height: 2em;
+    width: 9em;
+    height: 3em;
   }
   .formbody {
     display: -webkit-box;
