@@ -286,8 +286,8 @@ footer {
 
     #profileImg{
 
-        width: 80%;
-        height: 80%;
+        width: 10%;
+        // height: 80%;
     }
 
     .nav-container{
@@ -393,8 +393,8 @@ footer {
 @media  screen and (min-width: 320px) and (max-width: 480px) {
     #profileImg{
 
-        width: 70%;
-        height: 70%;
+        width: 10%;
+        // height: 70%;
     }
 
     .nav-container{
@@ -490,7 +490,7 @@ footer {
 @media  screen and (min-width: 481px) and (max-width: 768px) {
     #profileImg{
 
-        width: 25%;
+        width: 15%;
     }
 
     .project-conainer{
@@ -524,7 +524,7 @@ footer {
 @media  screen and (min-width: 769px) and (max-width: 1024px) {
     #profileImg{
 
-        width: 25%;
+        width: 10%;
     }
     .project-conainer{
         display: flex;
@@ -552,7 +552,7 @@ footer {
 @media  screen and (min-width: 1024px) and (max-width: 1280px) {
     #profileImg{
 
-        width: 15%;
+        width: 5%;
     }
 
     h2{
@@ -635,7 +635,7 @@ footer {
 
 @media  screen and (min-width: 1280px) {
     #profileImg{
-        width: 15%;
+        width: 5%;
     }
 
     .project-conainer{
