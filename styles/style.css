@@ -118,7 +118,7 @@ section {
           align-items: center;
 }
 
-.project-conainer {
+.projects {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,31 +135,31 @@ section {
   width: 75%;
 }
 
-.project-conainer .projcet {
+.projects .project {
   background-color: #aa7dce;
   border-radius: 0.3em;
   margin: 2%;
   height: 20%;
 }
 
-.project-conainer img {
+.projects img {
   margin-top: 0.5em;
   border-radius: 0.3em;
   width: 50%;
 }
 
-.project-conainer a {
+.projects a {
   border-radius: 1em;
   margin-top: 1em;
 }
 
-.project-conainer h1,
-.project-conainer h5,
-.project-conainer p {
+.projects h1,
+.projects h5,
+.projects p {
   padding: 0em 1em 0em 1em;
 }
 
-.project-conainer button {
+.projects button {
   margin-bottom: 1em;
   border-radius: 0.5em;
   background-color: #1f1e1e;
@@ -167,6 +167,7 @@ section {
   color: white;
   font-size: 1em;
   width: 10em;
+  margin: 1%;
 }
 
 .section3 {
@@ -294,7 +295,7 @@ footer {
   .nav-container a {
     font-size: 0.9em;
   }
-  .project-conainer {
+  .projects {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -316,7 +317,7 @@ footer {
   .section1 h3 {
     font-size: medium;
   }
-  .projcet {
+  .project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -333,14 +334,21 @@ footer {
     width: 15em;
     height: 25em;
   }
-  .projcet img {
+  .project img {
     padding: 1%;
     width: 60%;
   }
-  .projcet p {
+  .project p {
     font-size: small;
   }
-  .projcet button {
+  .project button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 9em;
     height: 3em;
   }
@@ -393,7 +401,7 @@ footer {
   .nav-container a {
     font-size: 1.1em;
   }
-  .project-conainer {
+  .projects {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -408,7 +416,7 @@ footer {
         -ms-flex-align: center;
             align-items: center;
   }
-  .projcet {
+  .project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -425,14 +433,14 @@ footer {
     width: 15em;
     height: 25em;
   }
-  .projcet img {
+  .project img {
     padding: 1%;
     width: 60%;
   }
-  .projcet p {
+  .project p {
     font-size: small;
   }
-  .projcet button {
+  .project button {
     width: 9em;
     height: 3em;
   }
@@ -482,7 +490,7 @@ footer {
     width: 15%;
     height: 15%;
   }
-  .project-conainer {
+  .projects {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -497,7 +505,7 @@ footer {
         -ms-flex-align: center;
             align-items: center;
   }
-  .projcet {
+  .project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -516,7 +524,7 @@ footer {
     width: 100%;
     height: 15%;
   }
-  .projcet img {
+  .project img {
     width: 60%;
   }
 }
@@ -526,7 +534,7 @@ footer {
     width: 10%;
     height: 10%;
   }
-  .project-conainer {
+  .projects {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -541,7 +549,7 @@ footer {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .projcet {
+  .project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -559,7 +567,7 @@ footer {
         flex-wrap: wrap;
     width: 35em;
   }
-  .projcet img {
+  .project img {
     width: 80%;
   }
 }
@@ -572,7 +580,7 @@ footer {
   h2 {
     font-size: 5em;
   }
-  .project-conainer {
+  .projects {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -587,7 +595,7 @@ footer {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .projcet {
+  .project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -605,7 +613,7 @@ footer {
         flex-wrap: wrap;
     width: 25em;
   }
-  .projcet img {
+  .project img {
     width: 70%;
   }
   .formbody {
@@ -654,7 +662,7 @@ footer {
     width: 5%;
     height: 5%;
   }
-  .project-conainer {
+  .projects {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -669,7 +677,7 @@ footer {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .projcet {
+  .project {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -687,7 +695,7 @@ footer {
         flex-wrap: wrap;
     width: 25em;
   }
-  .projcet img {
+  .project img {
     width: 60%;
   }
 }

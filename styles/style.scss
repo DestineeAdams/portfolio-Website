@@ -127,7 +127,7 @@ section {
 
 }
 
-.project-conainer {
+.projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,7 +137,7 @@ section {
     width: 75%;
    
 
-    .projcet {
+    .project {
         
         background-color: #aa7dce;
         border-radius: 0.3em;
@@ -166,6 +166,7 @@ section {
     }
 
     button {
+       
         margin-bottom: 1em;
         border-radius: 0.5em;
         background-color: #1f1e1e;
@@ -173,6 +174,7 @@ section {
         color: white;
         font-size: 1em;
         width: 10em;
+        margin: 1%;
     }
 }
 
@@ -296,7 +298,7 @@ footer {
         }
     }
 
-    .project-conainer{
+    .projects{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -313,7 +315,7 @@ footer {
         }
     }
     
-    .projcet {
+    .project {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -332,8 +334,11 @@ footer {
         }
 
         button {
+            display: flex;
+            flex-direction: column;
             width: 9em;
             height: 3em;
+          
         }
     }
 
@@ -403,14 +408,14 @@ footer {
         }
     }
 
-    .project-conainer{
+    .projects{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .projcet {
+    .project {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -494,14 +499,14 @@ footer {
         height: 15%;
     }
 
-    .project-conainer{
+    .projects{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .projcet {
+    .project {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -528,14 +533,14 @@ footer {
         width: 10%;
         height: 10%;
     }
-    .project-conainer{
+    .projects{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
     }
 
-    .projcet {
+    .project {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -561,7 +566,7 @@ footer {
     h2{
         font-size: 5em;
     }
-    .project-conainer{
+    .projects{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -569,7 +574,7 @@ footer {
         
     }
 
-    .projcet {
+    .project {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -642,7 +647,7 @@ footer {
         height: 5%;
     }
 
-    .project-conainer{
+    .projects{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -650,7 +655,7 @@ footer {
         
     }
 
-    .projcet {
+    .project {
         display: flex;
         flex-direction: column;
         justify-content: center;
