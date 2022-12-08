@@ -1,3 +1,35 @@
 body{
-  background-color: rgb(156, 208, 208);
+  background-color: #242323;
+  color: rgb(255, 255, 255);
 }
+
+.navbar > a{
+  color: rgb(255, 255, 255);
+}
+
+
+#home > h1{
+  text-transform: uppercase;
+  /* text-decoration-line: underline; */
+  font-weight: bold;
+  text-align: center;
+}
+
+div .card {
+  background-color:#b07bf0;
+  
+}
+
+div > a {
+  background-color:#19161b;
+  
+}
+
+.headings {
+  text-transform: uppercase;
+  /* text-decoration-line: underline; */
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
