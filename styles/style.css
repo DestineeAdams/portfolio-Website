@@ -1,14 +1,16 @@
-body{
+body {
   background-color: #242323;
   color: rgb(255, 255, 255);
 }
 
-.navbar > a{
+
+
+.navbar>a {
   color: rgb(255, 255, 255);
 }
 
 
-#home > h1{
+#home>h1 {
   text-transform: uppercase;
   /* text-decoration-line: underline; */
   font-weight: bold;
@@ -16,13 +18,13 @@ body{
 }
 
 div .card {
-  background-color:#b07bf0;
-  
+  background-color: #b07bf0;
+
 }
 
-div > a {
-  background-color:#19161b;
-  
+div>a {
+  background-color: #19161b;
+
 }
 
 .headings {
@@ -33,3 +35,11 @@ div > a {
   text-align: center;
 }
 
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+
+
+}
