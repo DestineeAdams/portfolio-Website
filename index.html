@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
     <link rel="javascript" href=".\scripts.js">
-    <link rel="shortcut icon" type="image/jpg" href=".\img\favicon-32x32.png" />
+    <link rel="shortcut icon" type="image/jpg" href=".\files\logo1.png" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -19,9 +19,12 @@
 
 
     <!-- nav bar -->
-    <nav class="navbar" style="background-color:#b07bf0;">
+    <nav class="navbar fixed-top" style="background-color:#b07bf0;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img\favicon-32x32.png" alt="logo"></a>
+
+            <!-- <a class="navbar-brand" href="#"> -->
+            <img src="files\logo1.png" id="logo" alt="logo">
+            <!-- </a> -->
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -31,10 +34,10 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#">Top</a> </li>
-                    <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#projects">Projects</a> </li>
-                    <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#resume">Resume</a> </li>
-                    <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#contact">Contact</a> </li>
+                    <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#">------------- intro -------------</a> </li>
+                    <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#projects">------------- Projects -------------</a> </li>
+                    <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#resume">------------- Resume -------------</a> </li>
+                    <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#contact">------------- Contact -------------</a> </li>
                 </ul>
             </div>
         </div>
@@ -42,12 +45,12 @@
 
 
     <!-- container -->
-    <div class='d-flex align-items-center flex-column' id="home">
+    <div class='d-flex align-items-center flex-column mt-5' id="home">
 
         <!-- home -->
         <!-- <div class='m-5' id="home"> -->
 
-        <h1 class="mt-5">DESTINEE ADAMS</h1>
+        <h1 class="mt-5" id="myname">DESTINEE ADAMS</h1>
         <h3>Software Developer</h3>
         <img src="img\profilePhoto.png" class="rounded w-25 m-3" id="profileImg">
 
@@ -55,108 +58,104 @@
             Hi!
             <br>
             I'm Destinee!
-            I love programming, biking, and <br>learning new things!
+            I love programming, biking, and <br> learning new things!
         </p>
 
-        <!-- </div> -->
+    </div>
 
-        <!-- projects -->
-
-
-        <div class="projects m-4"></div>
-        <h1 class="headings mb-5" id="projects"> projects </h1>
+    <!-- projects -->
 
 
-        <div class="card-container">
+    <div class="projects m-4"></div>
+    <h1 class="headings " id="projects">---- <br> PROJECTS <br> ----</h1>
 
 
-            <!-- card start -->
-            <div class="card text-center " style="width: 18rem;" id="projectscard">
-                <img src="img\demogif1.gif" class="card-img-top" alt="gif of this site">
+    <div class="card-container">
+        <!-- card start -->
+        <div class="card text-center " style="width: 18rem;" id="projectscard">
+            <img src="img\demogif1.gif" class="card-img-top" alt="gif of this site">
 
-                <div class="card-body">
+            <div class="card-body">
 
-                    <h5 class="card-title">This Webpage</h5>
-                    <p class="card-text">
-                        Portfolio site made from scratch to show off projects
+                <h5 class="card-title">This Webpage</h5>
+                <p class="card-text">
+                    Portfolio site made from scratch to show off projects
 
-                    </p>
+                </p>
 
-                    <p class="card-text">
-                        The technologies used: html, JavaScript, CSS, bootstrap, github pages and, formsubmit
-                        api
-                    </p>
+                <p class="card-text">
+                    The technologies used: html, JavaScript, CSS, bootstrap, github pages and, formsubmit
+                    api
+                </p>
 
-                    <a href="https://github.com/DestineeAdams/portfolio-Website" class="btn btn-dark mx-2">see
+                <a href="https://github.com/DestineeAdams/portfolio-Website" class="btn btn-dark mx-2">see
+                    code</a>
+
+            </div>
+        </div>
+
+
+        <!-- card start -->
+        <div class="card text-center" style="width: 18rem;">
+            <img src=".\img\65ypbr.gif" class="card-img-top w-50 m-auto" alt="moon">
+
+            <div class="card-body">
+
+                <h5 class="card-title">The random gif dictionary</h5>
+                <p class="card-text">
+                    A web app that gives you a random word with a GIF to match <em>(not complete)</em>
+                </p>
+                <p class="card-text">
+                    The technologies used: html, CSS, python, flask, WordsAPI and ghipy API
+                </p>
+
+                <div div class='d-flex align-items-center flex-column'>
+                    <a href="#" class="btn btn-dark m-1 disabled" aria-disabled="true">see
+                        app</a>
+                    <a href="https://github.com/DestineeAdams/random-gif-dictionary-gif" class="btn btn-dark m-1">see
                         code</a>
                 </div>
+
             </div>
+        </div>
 
 
+        <div class="">
             <!-- card start -->
-            <div class="card text-center" style="width: 18rem;">
-                <img src=".\img\65ypbr.gif" class="card-img-top w-50 m-auto" alt="moon">
+            <div class="card text-center g-col-6" style="width: 18rem;">
+                <img src=".\img\moon.jpg" class="card-img-top w-50 m-auto" alt="moon">
 
                 <div class="card-body">
 
-                    <h5 class="card-title">The random gif dictionary</h5>
+                    <h5 class="card-title">upjour</h5>
                     <p class="card-text">
-                        A web app that gives you a random word with a GIF to match <em>(not complete)</em>
+                        upjour is a planner that also allows you to keep track of your mind and mental state
+                        through journaling and mood tracking.<em> (not complete)</em>
                     </p>
                     <p class="card-text">
-                        The technologies used: html, CSS, python, flask, WordsAPI and ghipy API
+                        The technologies used so far: react, node.js, mySQL
                     </p>
 
                     <div div class='d-flex align-items-center flex-column'>
-
-
                         <a href="#" class="btn btn-dark m-1 disabled" aria-disabled="true">see
                             app</a>
-                        <a href="https://github.com/DestineeAdams/random-gif-dictionary-gif"
-                            class="btn btn-dark m-1">see code</a>
+                        <a href="https://github.com/DestineeAdams/upjour" class="btn btn-dark m-1">see
+                            code</a>
                     </div>
 
                 </div>
-            </div>
-
-
-            <div class="">
-                <!-- card start -->
-                <div class="card text-center g-col-6" style="width: 18rem;">
-                    <img src=".\img\moon.jpg" class="card-img-top w-50 m-auto" alt="moon">
-
-                    <div class="card-body">
-
-                        <h5 class="card-title">upjour</h5>
-                        <p class="card-text">
-                            upjour is a planner that also allows you to keep track of your mind and mental state
-                            through journaling and mood tracking.<em> (not complete)</em>
-                        </p>
-                        <p class="card-text">
-                            The technologies used so far: react, node.js, mySQL
-                        </p>
-
-                        <div div class='d-flex align-items-center flex-column'>
-                            <a href="#" class="btn btn-dark m-1 disabled" aria-disabled="true">see
-                                app</a>
-                            <a href="https://github.com/DestineeAdams/upjour" class="btn btn-dark m-1">see
-                                code</a>
-                        </div>
-
-                    </div>
-                </div>
-
-
             </div>
 
         </div>
+
+        
     </div>
 
 
     <!-- RESUME -->
 
     <div class="section3 my-5" id="resume">
-        <h2 class="headings">RESUME</h2>
+        <h1 class="headings">---- <br> RESUME <br> ----</h1>
 
         <div class="button-container my-4">
             <button type="button" class="btn btn-light me-3" style="text-transform: uppercase;" href='files/Resume.pdf'>
@@ -180,7 +179,7 @@
 
     <div class="container" id="contact">
 
-        <h2 class="headings mb-4">SAY HELLO</h2>
+        <h1 class="headings mb-4">---- <br> SAY HELLO  <br> ----</h1>
 
 
 

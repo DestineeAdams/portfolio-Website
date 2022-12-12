@@ -5,16 +5,32 @@ body {
 
 
 
-.navbar>a {
-  color: rgb(255, 255, 255);
+#logo{
+  width: 40px;
 }
 
 
-#home>h1 {
+
+.navbar > a {
+  color: rgb(255, 255, 255);
+  size: 10%;
+  font-size: 1%;
+
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+
+
+
+#myname {
   text-transform: uppercase;
   /* text-decoration-line: underline; */
   font-weight: bold;
-  text-align: center;
+  text-align: center;  
+  /* font-size: xx-large; */
+
 }
 
 div .card {
@@ -22,17 +38,27 @@ div .card {
 
 }
 
-div>a {
-  background-color: #19161b;
-
+.nav-link{
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration-thickness: 23px;
 }
 
-.headings {
+.nav-link:hover{
   text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline white;
+}
+
+
+
+.headings {
+  /* text-transform: uppercase; */
   /* text-decoration-line: underline; */
   font-style: italic;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: center;
+
 }
 
 
@@ -53,6 +79,29 @@ div>a {
 
   margin-bottom: 10%;
 
+}
+
+
+.card-container{
+  align-items: flex-end ;
+  flex-wrap: wrap;
+  gap: 40px;
+  
+}
+
+
+@media (max-width: 450px) {  
+     
+  .container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  
+    width: 70%;
+  
+    margin-bottom: 10%;
+  
+  }
 }
 
 
@@ -78,7 +127,6 @@ div>a {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
     
   }
 }
@@ -101,9 +149,11 @@ div>a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    
+
+  }
+
+  .card{
+    width: 18rem;
   }
 }
 
@@ -115,7 +165,7 @@ div>a {
     flex-direction: column;
     justify-content: center; */
   
-    width: 25%;
+    width: 40%;
   
     margin-bottom: 10%;
   
