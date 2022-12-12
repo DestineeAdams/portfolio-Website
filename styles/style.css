@@ -70,6 +70,19 @@ div>a {
   }
 }
  
+@media (max-width: 950px) { 
+ 
+
+  .card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+  }
+}
+
 
 @media (min-width: 950px) { 
  
