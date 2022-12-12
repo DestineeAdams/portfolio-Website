@@ -103,6 +103,11 @@ label, input, button{
     flex-wrap: wrap;
     
   } 
+
+  textarea{
+    height: 100px;
+    width: 50px;
+  }
 }
 
  
@@ -116,6 +121,10 @@ label, input, button{
     
   }
 
+  textarea{
+    height: 100px;
+    width: 100px;
+  }
 }
 
 
