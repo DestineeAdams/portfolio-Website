@@ -12,6 +12,8 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <link rel="stylesheet" href=".\styles\style.css">
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <title>Destinee Portfolio</title>
 </head>
 
@@ -42,6 +44,7 @@
                             -------------</a> </li>
                     <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#contact">-------------
                             Contact -------------</a> </li>
+
                 </ul>
             </div>
         </div>
@@ -56,7 +59,7 @@
 
         <h1 class="mt-5" id="myname">DESTINEE ADAMS</h1>
         <h3>Software Developer</h3>
-        <img src="img\profilePhoto.png" class="rounded w-25 m-3" id="profileImg">
+        <img src="img\profilePhoto.png" class="rounded  m-3" id="profileImg">
 
         <p class="text-center">
             Hi!
@@ -162,19 +165,21 @@
         <h1 class="headings">---- <br> RESUME <br> ----</h1>
 
         <div class="button-container my-4">
-            <button type="button" class="btn btn-light me-3" style="text-transform: uppercase;" href='files/Resume.pdf'>
+            <!-- <button type="button" class="btn btn-light me-3" href='files\Resume.pdf'> -->
+            <a class="btn btn-light me-3" href='files\Resume.pdf' style="text-transform: uppercase;  ">
                 resume
-            </button>
+            </a>
 
-            <button type="button" class="btn" href="https://github.com/DestineeAdams">
-                <a><img class="w-75" src="img\githubIcon.png" alt="github"></a>
-            </button>
-
-            <button type="button" class="btn" href="https://www.linkedin.com/in/destinee-adams-7b4266192/"">
-                    <a><img class=" w-75" src="img\linkedinIcon.png" alt="linkedin"></a>
-            </button>
+            <a class="btn" href="https://github.com/DestineeAdams"><img class="w-75" src="img\githubIcon.png"
+                    alt="github"></a>
 
 
+            <a class="btn" href=" https://www.linkedin.com/in/destinee-adams-7b4266192/"> <img class=" w-75"
+                    src="img\linkedinIcon.png" alt="linkedin"></a>
+
+            <a class="btn ms-2 " href="https://workinonit.substack.com/">
+            <iconify-icon icon="simple-icons:substack" style="color: white;" width="35px" height="40px"></iconify-icon>
+            </a>
         </div>
 
     </div>
@@ -199,7 +204,8 @@
             </div>
 
             <div class="form-group">
-                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" cols="40" required></textarea>
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" cols="40"
+                    required></textarea>
             </div>
 
             <!-- <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button> -->

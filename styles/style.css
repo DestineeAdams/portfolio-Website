@@ -10,6 +10,7 @@ body {
 }
 
 
+
 #myname {
   text-transform: uppercase;
   /* text-decoration-line: underline; */
@@ -52,6 +53,7 @@ body {
 .button-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -104,9 +106,21 @@ label, input, button{
     
   } 
 
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+
   textarea{
     height: 100px;
     width: 50px;
+  }
+
+  #profileImg{
+    width: 10%;
   }
 }
 
@@ -125,6 +139,10 @@ label, input, button{
     height: 100px;
     width: 100px;
   }
+
+  #profileImg{
+    width: 15%;
+  }
 }
 
 
@@ -140,6 +158,11 @@ label, input, button{
 
   .card{
     width: 18rem;
+  }
+
+
+  #profileImg{
+    width: 10%;
   }
 }
 
