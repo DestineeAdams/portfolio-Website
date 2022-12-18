@@ -14,7 +14,7 @@
     <link rel="stylesheet" href=".\styles\style.css">
 
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    <title>Destinee Portfolio</title>
+    <title>Destinee's Portfolio</title>
 </head>
 
 <body>
@@ -25,23 +25,29 @@
         <div class="container-fluid">
 
             <!-- <a class="navbar-brand" href="#"> -->
-            <img src="files\logo1.png" id="logo" alt="logo">
+            <img src="files\logo1.png" id="logo" alt="nav bar logo">
             <!-- </a> -->
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler mt-2" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <iconify-icon icon="material-symbols:menu-rounded" style="color: white;" width="30" height="30">
+                </iconify-icon>
+
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                     <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#">------------- intro
                             -------------</a> </li>
+
                     <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#projects">-------------
                             Projects -------------</a> </li>
+
                     <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#resume">------------- Resume
                             -------------</a> </li>
+
                     <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#contact">-------------
                             Contact -------------</a> </li>
 
@@ -50,176 +56,211 @@
         </div>
     </nav>
 
+    <!-- home -->
+    <section class="home">
 
-    <!-- container -->
-    <div class='d-flex align-items-center flex-column mt-5' id="home">
+        <!-- container -->
+        <div class='d-flex align-items-center flex-column mt-5' id="home">
 
-        <!-- home -->
-        <!-- <div class='m-5' id="home"> -->
+            <!-- home -->
+            <!-- <div class='m-5' id="home"> -->
 
-        <h1 class="mt-5" id="myname">DESTINEE ADAMS</h1>
-        <h3>Software Developer</h3>
-        <img src="img\profilePhoto.png" class="rounded  m-3" id="profileImg">
+            <h1 class="mt-5" id="myname">DESTINEE ADAMS</h1>
+            <h2>Technology Creative</h2>
+            <img src="img\profilePhoto.png" class="rounded  m-3" id="profileImg" alt="giant ti-84 vertical to the sky in a new york street saying hi">
 
-        <p class="text-center">
-            Hi!
-            <br>
-            I'm Destinee!
-            I love programming, biking, and <br> learning new things!
-        </p>
+            <p class="text-center">
+                Hi!
+                <br>
+                I'm Destinee!
+                I love programming, biking, and <br> learning new things!
+            </p>
 
-    </div>
+        </div>
+
+    </section>
 
     <!-- projects -->
+    <section class="projects">
+        <h1 class="headings " id="projects"> PROJECTS <br> ----</h1>
 
 
-    <div class="projects m-4"></div>
-    <h1 class="headings " id="projects"> PROJECTS <br> ----</h1>
-
-
-    <div class="card-container">
-        <!-- card start -->
-        <div class="card text-center " style="width: 18rem;" id="projectscard">
-            <img src="img\demogif1.gif" class="card-img-top" alt="gif of this site">
-
-            <div class="card-body">
-
-                <h5 class="card-title">This Webpage</h5>
-                <p class="card-text">
-                    Portfolio site made from scratch to show off projects
-
-                </p>
-
-                <p class="card-text">
-                    The technologies used: html, JavaScript, CSS, bootstrap, github pages and, formsubmit
-                    api
-                </p>
-
-                <a href="https://github.com/DestineeAdams/portfolio-Website" class="btn btn-dark mx-2">see
-                    code</a>
-
-            </div>
-        </div>
-
-
-        <!-- card start -->
-        <div class="card text-center" style="width: 18rem;">
-            <img src=".\img\65ypbr.gif" class="card-img-top w-50 m-auto" alt="moon">
-
-            <div class="card-body">
-
-                <h5 class="card-title">The random gif dictionary</h5>
-                <p class="card-text">
-                    A web app that gives you a random word with a GIF to match <em>(not complete)</em>
-                </p>
-                <p class="card-text">
-                    The technologies used: html, CSS, python, flask, WordsAPI and ghipy API
-                </p>
-
-                <div div class='d-flex align-items-center flex-column'>
-                    <a href="#" class="btn btn-dark m-1 disabled" aria-disabled="true">see
-                        app</a>
-                    <a href="https://github.com/DestineeAdams/random-gif-dictionary-gif" class="btn btn-dark m-1">see
-                        code</a>
-                </div>
-
-            </div>
-        </div>
-
-
-        <div class="">
+        <div class="card-container">
             <!-- card start -->
-            <div class="card text-center g-col-6" style="width: 18rem;">
-                <img src=".\img\moon.jpg" class="card-img-top w-50 m-auto" alt="moon">
+            <div class="card text-center " style="width: 18rem;" id="projectscard">
+                <img src="img\demogif1.gif" class="card-img-top" alt="gif of this site">
 
                 <div class="card-body">
 
-                    <h5 class="card-title">upjour</h5>
+                    <h5 class="card-title">This Webpage</h5>
                     <p class="card-text">
-                        upjour is a planner that also allows you to keep track of your mind and mental state
-                        through journaling and mood tracking.<em> (not complete)</em>
+                        Portfolio site made from scratch to show off projects
+
+                    </p>
+
+                    <p class="card-text">
+                        The technologies used: html, JavaScript, CSS, bootstrap, github pages and, formsubmit
+                        api
+                    </p>
+
+                    <a href="https://github.com/DestineeAdams/portfolio-Website" class="btn btn-dark mx-2">see
+                        code</a>
+
+                </div>
+            </div>
+
+
+            <!-- card start -->
+            <div class="card text-center" style="width: 18rem;">
+                <img src=".\img\65ypbr.gif" class="card-img-top w-50 m-auto" alt=" gif of The random gif dictionary
+                ">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">The random gif dictionary</h5>
+                    <p class="card-text">
+                        A web app that gives you a random word with a GIF to match <em>(not complete)</em>
                     </p>
                     <p class="card-text">
-                        The technologies used so far: react, node.js, mySQL
+                        The technologies used: html, CSS, python, flask, WordsAPI and ghipy API
                     </p>
 
                     <div div class='d-flex align-items-center flex-column'>
                         <a href="#" class="btn btn-dark m-1 disabled" aria-disabled="true">see
                             app</a>
-                        <a href="https://github.com/DestineeAdams/upjour" class="btn btn-dark m-1">see
+                        <a href="https://github.com/DestineeAdams/random-gif-dictionary-gif"
+                            class="btn btn-dark m-1">see
                             code</a>
                     </div>
 
                 </div>
             </div>
 
-        </div>
 
+            <div class="">
+                <!-- card start -->
+                <div class="card text-center g-col-6" style="width: 18rem;">
+                    <img src=".\img\moon.jpg" class="card-img-top w-50 m-auto" alt="moon">
 
-    </div>
+                    <div class="card-body">
 
+                        <h5 class="card-title">upjour</h5>
+                        <p class="card-text">
+                            upjour is a planner that also allows you to keep track of your mind and mental state
+                            through journaling and mood tracking.<em> (not complete)</em>
+                        </p>
+                        <p class="card-text">
+                            The technologies used so far: react, node.js, mySQL
+                        </p>
 
-    <!-- RESUME -->
+                        <div div class='d-flex align-items-center flex-column'>
+                            <a href="#" class="btn btn-dark m-1 disabled" aria-disabled="true">see
+                                app</a>
+                            <a href="https://github.com/DestineeAdams/upjour" class="btn btn-dark m-1">see
+                                code</a>
+                        </div>
 
-    <div class="section3 my-5" id="resume">
-        <h1 class="headings">RESUME <br> ----</h1>
-
-        <div class="button-container my-4">
-            <!-- <button type="button" class="btn btn-light me-3" href='files\Resume.pdf'> -->
-            <a class="btn btn-light me-3" href='files\Resume.pdf' style="text-transform: uppercase;  ">
-                resume
-            </a>
-
-            <a class="btn" href="https://github.com/DestineeAdams"><img class="w-75" src="img\githubIcon.png"
-                    alt="github"></a>
-
-
-            <a class="btn" href=" https://www.linkedin.com/in/destinee-adams-7b4266192/"> <img class=" w-75"
-                    src="img\linkedinIcon.png" alt="linkedin"></a>
-
-            <a class="btn ms-2 " href="https://workinonit.substack.com/">
-            <iconify-icon icon="simple-icons:substack" style="color: white;" width="35px" height="40px"></iconify-icon>
-            </a>
-        </div>
-
-    </div>
-
-
-
-    <div class="container" id="contact">
-
-        <h1 class="headings mb-4"> SAY HELLO <br> ----</h1>
-
-        <form target="_blank" action="https://formsubmit.co/adestinee37@gmail.com" method="POST">
-
-            <div class="form-group">
-                <div class="form-row">
-                    <div class="col">
-                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                    </div>
-                    <div class="col">
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
                     </div>
                 </div>
+
             </div>
 
-            <div class="form-group">
-                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" cols="40"
-                    required></textarea>
+
+
+            <!-- <div class="">
+                <div class="card text-center g-col-6" style="width: 18rem;">
+                    <img src=".\img\moon.jpg" class="card-img-top w-50 m-auto" alt="moon">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">test</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, voluptas.
+                        </p>
+                        <p class="card-text">
+                            The technologies used so far: Lorem ipsum dolor sit amet.
+                        </p>
+
+                        <div div class='d-flex align-items-center flex-column'>
+                            <a href="#" class="btn btn-dark m-1 disabled" aria-disabled="true">see
+                                app</a>
+                            <a href="https://github.com/DestineeAdams/upjour" class="btn btn-dark m-1">see
+                                code</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div> -->
+
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="resume">
+        <div class="section3" id="resume">
+            <h1 class="headings">RESUME <br> ----</h1>
+
+
+            <div class="button-container">
+                <!-- <button type="button" class="btn btn-light me-3" href='files\Resume.pdf'> -->
+                <a class="btn btn-light me-3" href='files\Resume.pdf' style="text-transform: uppercase;  ">
+                    resume
+                </a>
+
+                <a class="btn" href="https://github.com/DestineeAdams"><img class="w-75" src="img\githubIcon.png"
+                        alt="github"></a>
+
+
+                <a class="btn" href=" https://www.linkedin.com/in/destinee-adams-7b4266192/"> <img class=" w-75"
+                        src="img\linkedinIcon.png" alt="linkedin"></a>
+
+                <a class="btn ms-2 " href="https://workinonit.substack.com/">
+                    <iconify-icon icon="simple-icons:substack" style="color: white; margin-top: 5px;" width="35px" height="40px">
+                    </iconify-icon>
+                </a>
+
+                <a class="btn mt-1 " href="https://vsco.co/destinee-a-a/gallery">
+                    <iconify-icon icon="cib:vsco" style="color: white;" width="35" height="40"></iconify-icon>
+                </a>
             </div>
 
-            <!-- <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button> -->
-            <div class="d-grid mt-2">
-                <button type="submit" class="btn btn-lg  btn-light btn-block">Submit Form</button>
-            </div>
-        </form>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact">
+
+        <div class="container" id="contact">
+
+            <h1 class="headings"> SAY HELLO <br> ----</h1>
+
+            <form target="_blank" action="https://formsubmit.co/adestinee37@gmail.com" method="POST">
+
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                        </div>
+                        <div class="col">
+                            <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" cols="40"
+                        required></textarea>
+                </div>
+
+                <div class="d-grid mt-2">
+                    <button type="submit" class="btn btn-lg  btn-light btn-block">Submit Form</button>
+                </div>
+            </form>
+        </div>
+    </section>
 
 
-    </div>
-
-    <!-- <footer style="background-color: #b07bf0;">
-      
-    </footer> -->
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

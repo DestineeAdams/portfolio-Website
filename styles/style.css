@@ -1,9 +1,14 @@
 body {
   background-color: #242323;
   color: rgb(255, 255, 255);
+ 
+  
 }
 
+footer{
+  background-color: #b07bf0;
 
+}
 
 #logo{
   width: 40px;
@@ -39,7 +44,10 @@ body {
   font-style: italic;
   /* font-weight: bold; */
   text-align: center;
+  line-height: 40px;
 
+  margin-top: 50px;
+  
 }
 
 
@@ -63,7 +71,7 @@ body {
   align-items: center;
   /* width: 75%; */
 
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 
 }
 
@@ -160,6 +168,10 @@ label, input, button{
     width: 18rem;
   }
 
+  textarea{
+    height: 100px;
+    width: 100px;
+  }
 
   #profileImg{
     width: 10%;
