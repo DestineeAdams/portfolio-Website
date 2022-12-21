@@ -17,7 +17,7 @@ footer{
 
 
 #myname {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   /* text-decoration-line: underline; */
   font-weight: bold;
   text-align: center;  
@@ -26,8 +26,10 @@ footer{
 }
 
 .nav-link{
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
+  font-size: large;
+
 }
 
 .nav-link:hover{
@@ -35,19 +37,20 @@ footer{
   text-align: center;
   text-decoration: underline white;
   color: #242323;
+  /* font-size: x-large; */
+
 }
 
 
 .headings {
-  text-transform: uppercase;
-  /* text-decoration-line: underline; */
+  /* text-transform: capitalize; */
   font-style: italic;
-  /* font-weight: bold; */
   text-align: center;
   line-height: 40px;
 
   margin-top: 50px;
-  
+  margin-bottom: 50px;
+
 }
 
 
@@ -55,8 +58,6 @@ footer{
   background-color: #b07bf0;
 
 }
-
-
 
 .button-container {
   display: flex;
