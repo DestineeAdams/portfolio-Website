@@ -1,702 +1,181 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  height: 100vh;
-  margin: auto;
-  font-family: Lucida Console, Arial, Helvetica, sans-serif;
-  scroll-behavior: smooth;
-  color: #e2dede;
   background-color: #242323;
+  color: rgb(255, 255, 255);
+ 
+  
 }
 
-button {
-  height: 3em;
-  background-color: #a33535;
-  color: black;
-  border: 2px solid #4CAF50;
+footer{
+  background-color: #b07bf0;
+
 }
 
-h2 {
-  font-size: 3em;
+#logo{
+  width: 40px;
 }
 
-h1 {
-  font-size: 2.2em;
+
+
+#myname {
+  /* text-transform: uppercase; */
+  /* text-decoration-line: underline; */
+  font-weight: bold;
+  text-align: center;  
+  /* font-size: xx-large; */
+
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 1em;
-}
-
-header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-header ul a {
-  display: block;
-  padding: 0.2em;
-}
-
-.nav-container {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #9f60d3;
-}
-
-.nav-container a {
-  color: #e2dede;
-  font-size: 1.2em;
-}
-
-/* ---------------------------------------------------------------------------- */
-section {
-  padding: 2em;
+.nav-link{
+  text-transform: capitalize;
   text-align: center;
-}
-
-.section1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.section1 h1 {
-  font-size: 400%;
-  text-align: center;
-}
-
-.section1 h3 {
-  font-size: xx-large;
-  text-align: center;
-}
-
-.section1 p {
   font-size: large;
+
+}
+
+.nav-link:hover{
+  text-transform: uppercase;
   text-align: center;
-  width: 75%;
+  text-decoration: underline white;
+  color: #242323;
+  /* font-size: x-large; */
+
 }
 
-.section2 {
-  background-color: #1f1e1e;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+
+.headings {
+  /* text-transform: capitalize; */
+  font-style: italic;
+  text-align: center;
+  line-height: 40px;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
 }
 
-.projects {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 75%;
-}
 
-.projects .project {
-  background-color: #aa7dce;
-  border-radius: 0.3em;
-  margin: 2%;
-  height: 20%;
-}
+.card {
+  background-color: #b07bf0;
 
-.projects img {
-  margin-top: 0.5em;
-  border-radius: 0.3em;
-  width: 50%;
-}
-
-.projects a {
-  border-radius: 1em;
-  margin-top: 1em;
-}
-
-.projects h1,
-.projects h5,
-.projects p {
-  padding: 0em 1em 0em 1em;
-}
-
-.projects button {
-  margin-bottom: 1em;
-  border-radius: 0.5em;
-  background-color: #1f1e1e;
-  border-color: transparent;
-  color: white;
-  font-size: 1em;
-  width: 10em;
-  margin: 1%;
-}
-
-.section3 {
-  background-color: #242323;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 2em;
-}
-
-.button-container button {
-  border-radius: 0.5em;
-  background-color: transparent;
-  border-color: #f5f5f5;
-  color: white;
-  font-size: 1em;
-}
-
-.button-container img {
-  width: 3em;
-}
-
-.section4 {
-  background-color: #1f1e1e;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 75%; */
+
+  margin-bottom: 5%;
+
 }
 
-.formbody {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
+.card-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end ;
+  flex-wrap: wrap;
+  gap: 40px;
+  
+}
+
+form.form-example {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.formbody input[type=text] {
-  width: 19em;
-  height: 2em;
-  border: solid 0.2em #f5f5f5;
-  font-size: 100%;
-  color: #f5f5f5;
-  border-radius: 10px;
-  background-color: transparent;
+/* div.form-example {
+  display: flex;
+} */
+
+label, input, button{
+  /* display: table-cell; */
+  margin-bottom: 10px;
 }
 
-.formbody textarea {
-  width: 18em;
-  height: 10em;
-  border: solid 0.2em #f5f5f5;
-  color: #f5f5f5;
-  font-size: 125%;
-  border-radius: 10px;
-  background-color: transparent;
-}
+/* label {
+  padding-right: 10px;
+} */
 
-.formbody input[type=submit] {
-  border-radius: 0.3em;
-  background-color: transparent;
-  border-color: #f5f5f5;
-  color: white;
-  font-size: 1.2em;
-  width: auto;
-  height: auto;
-}
 
-footer {
-  background-color: #aa7dce;
-}
 
-@media screen and (min-width: 260px) and (max-width: 320px) {
-  #profileImg {
+@media (max-width: 660px) { 
+
+  .card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  } 
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+
+  textarea{
+    height: 100px;
+    width: 50px;
+  }
+
+  #profileImg{
     width: 10%;
-    height: 10%;
-  }
-  .nav-container a {
-    font-size: 0.9em;
-  }
-  .projects {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .section1 h1 {
-    margin-top: 25%;
-    font-size: x-large;
-  }
-  .section1 h3 {
-    font-size: medium;
-  }
-  .project {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 15em;
-    height: 25em;
-  }
-  .project img {
-    padding: 1%;
-    width: 60%;
-  }
-  .project p {
-    font-size: small;
-  }
-  .project button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 9em;
-    height: 3em;
-  }
-  .formbody {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .formbody input[type=text] {
-    width: 15em;
-    height: 2em;
-    border: solid 0.2em #f5f5f5;
-    font-size: 100%;
-    color: #f5f5f5;
-    border-radius: 10px;
-    background-color: transparent;
-  }
-  .formbody textarea {
-    width: 14.5em;
-    height: 10em;
-    border: solid 0.2em #f5f5f5;
-    color: #f5f5f5;
-    font-size: 125%;
-    border-radius: 10px;
-    background-color: transparent;
-  }
-  .formbody input[type=submit] {
-    border-radius: 0.3em;
-    background-color: transparent;
-    border-color: #f5f5f5;
-    color: white;
-    font-size: 1em;
-    width: auto;
-    height: auto;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  #profileImg {
-    width: 10%;
-    height: 10%;
-  }
-  .nav-container a {
-    font-size: 1.1em;
-  }
-  .projects {
-    display: -webkit-box;
-    display: -ms-flexbox;
+ 
+@media (max-width: 955px) { 
+ 
+  .card-container{
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
   }
-  .project {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 15em;
-    height: 25em;
-  }
-  .project img {
-    padding: 1%;
-    width: 60%;
-  }
-  .project p {
-    font-size: small;
-  }
-  .project button {
-    width: 9em;
-    height: 3em;
-  }
-  .formbody {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .formbody input[type=text] {
-    width: 15em;
-    height: 2em;
-    border: solid 0.2em #f5f5f5;
-    font-size: 100%;
-    color: #f5f5f5;
-    border-radius: 10px;
-    background-color: transparent;
-  }
-  .formbody textarea {
-    width: 14.5em;
-    height: 10em;
-    border: solid 0.2em #f5f5f5;
-    color: #f5f5f5;
-    font-size: 125%;
-    border-radius: 10px;
-    background-color: transparent;
-  }
-  .formbody input[type=submit] {
-    border-radius: 0.3em;
-    background-color: transparent;
-    border-color: #f5f5f5;
-    color: white;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-  }
-}
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  #profileImg {
+  textarea{
+    height: 100px;
+    width: 100px;
+  }
+
+  #profileImg{
     width: 15%;
-    height: 15%;
-  }
-  .projects {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .project {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 100%;
-    height: 15%;
-  }
-  .project img {
-    width: 60%;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  #profileImg {
+
+@media (min-width: 950px) { 
+ 
+
+  .card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+  .card{
+    width: 18rem;
+  }
+
+  textarea{
+    height: 100px;
+    width: 100px;
+  }
+
+  #profileImg{
     width: 10%;
-    height: 10%;
-  }
-  .projects {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .project {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 35em;
-  }
-  .project img {
-    width: 80%;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-  #profileImg {
-    width: 5%;
-    height: 5%;
-  }
-  h2 {
-    font-size: 5em;
-  }
-  .projects {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .project {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 25em;
-  }
-  .project img {
-    width: 70%;
-  }
-  .formbody {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .formbody input[type=text] {
-    width: 25em;
-    height: 2em;
-    border: solid 0.2em #f5f5f5;
-    font-size: 100%;
-    color: #f5f5f5;
-    border-radius: 10px;
-    background-color: transparent;
-  }
-  .formbody textarea {
-    width: 24.5em;
-    height: 10em;
-    border: solid 0.2em #f5f5f5;
-    color: #f5f5f5;
-    font-size: 125%;
-    border-radius: 10px;
-    background-color: transparent;
-  }
-  .formbody input[type=submit] {
-    border-radius: 0.3em;
-    background-color: transparent;
-    border-color: #f5f5f5;
-    color: white;
-    font-size: 1.2em;
-    width: auto;
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  #profileImg {
-    width: 5%;
-    height: 5%;
-  }
-  .projects {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .project {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 25em;
-  }
-  .project img {
-    width: 60%;
-  }
-}
-/*# sourceMappingURL=style.css.map */
