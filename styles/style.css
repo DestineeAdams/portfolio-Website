@@ -25,22 +25,6 @@ footer{
 
 }
 
-.nav-link{
-  text-transform: capitalize;
-  text-align: center;
-  font-size: large;
-
-}
-
-.nav-link:hover{
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: underline white;
-  color: #242323;
-  /* font-size: x-large; */
-
-}
-
 
 .headings {
   /* text-transform: capitalize; */
