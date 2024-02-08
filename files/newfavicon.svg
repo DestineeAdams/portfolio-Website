@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="newfavicon.svg"
+   inkscape:export-filename="newfavicon.svg"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="9.0487571"
+     inkscape:cx="22.102483"
+     inkscape:cy="20.500053"
+     inkscape:window-width="1304"
+     inkscape:window-height="891"
+     inkscape:window-x="392"
+     inkscape:window-y="41"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="3.9784469"
+       y="-11.603804"
+       width="24.202219"
+       height="9.2830429"
+       id="rect10" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#b07bf0;fill-opacity:1;stroke:none;stroke-width:3.0043"
+       id="rect3-1"
+       width="31.990206"
+       height="31.921926"
+       x="0.012044048"
+       y="0.066032752" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.663px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.333;stroke-dasharray:none"
+       x="1.0237303"
+       y="19.183546"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="1.0237303"
+         y="19.183546"
+         style="font-size:10.663px;fill:#ffffff;fill-opacity:1;stroke-width:1.333;stroke-dasharray:none">Semii</tspan></text>
+    <rect
+       style="fill:#b07bf0;fill-opacity:1;stroke:none;stroke-width:0.373496"
+       id="rect3"
+       width="5.6329956"
+       height="2.8019047"
+       x="34.552299"
+       y="1.2393956" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.373496"
+       id="rect3-0"
+       width="5.6329956"
+       height="2.8019047"
+       x="34.607819"
+       y="4.757422" />
+    <rect
+       style="fill:#242323;fill-opacity:1;stroke:none;stroke-width:0.373496"
+       id="rect3-5"
+       width="5.6329956"
+       height="2.8019047"
+       x="34.607819"
+       y="8.1549921" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.37075px;line-height:1.25;font-family:sans-serif;stroke-width:0.819515"
+       x="7.6661177"
+       y="-18.39784"
+       id="text8"
+       transform="scale(0.99402421,1.0060117)"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         x="7.6661177"
+         y="-18.39784"
+         style="stroke-width:0.819515">off centers </tspan><tspan
+         sodipodi:role="line"
+         x="7.6661177"
+         y="-12.934403"
+         id="tspan9"
+         style="stroke-width:0.819515">and look</tspan><tspan
+         sodipodi:role="line"
+         x="7.6661177"
+         y="-7.4709673"
+         id="tspan10"
+         style="stroke-width:0.819515">like somthing</tspan><tspan
+         sodipodi:role="line"
+         x="7.6661177"
+         y="-2.0075293"
+         id="tspan12"
+         style="stroke-width:0.819515">is missing</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text10"
+       style="font-size:5.33333px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect10)" />
+  </g>
+</svg>

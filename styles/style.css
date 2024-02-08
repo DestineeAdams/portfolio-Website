@@ -14,6 +14,42 @@ footer{
   width: 40px;
 }
 
+.navul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  
+}
+
+.navlileft {
+  float: left;
+}
+
+.navliright {
+  float: right;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navlileft a:hover {
+  background-color: #242323;
+  text-transform: uppercase;
+}
+
+.navliright a:hover {
+  background-color: #242323;
+  text-transform: uppercase;
+}
 
 
 #myname {
