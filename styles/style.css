@@ -24,15 +24,6 @@ footer{
   
 }
 
-.navlileft {
-  float: left;
-}
-
-.navliright {
-  float: right;
-}
-
-
 li a {
   display: block;
   color: white;
@@ -41,13 +32,24 @@ li a {
   text-decoration: none;
 }
 
+.navlileft {
+  float: left;
+  background-color: #b07bf0;
+}
+
+.navliright {
+  float: right;
+  background-color: #242323;
+}
+
+
 .navlileft a:hover {
   background-color: #242323;
   text-transform: uppercase;
 }
 
 .navliright a:hover {
-  background-color: #242323;
+  background-color: #b07bf0;
   text-transform: uppercase;
 }
 
