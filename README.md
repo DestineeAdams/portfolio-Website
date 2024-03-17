@@ -17,7 +17,7 @@ This is the very first website I've built all the link and resources I used are 
  [next project](https://github.com/DestineeAdams/random-gif-dictionary-gif) 
  
  see completed site here: 
-http://www.destineeadams.space/ 
+https://semii.space/ 
 
 ### todo
 
