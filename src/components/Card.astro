@@ -1,0 +1,57 @@
+---
+import ButtonComp from '../components/ButtonComp.astro';
+
+interface Props {
+    title: string;
+    description: string;
+    technologiesUsed: string;
+    photoPath: string;
+}
+
+const { title, description, technologiesUsed, photoPath } = Astro.props;
+---
+
+
+<div class="card-container">
+    <img src={photoPath} alt="gif of this site">
+    <h5>{title}</h5>
+    <p> {description}</p>
+    <p> The technologies used: {technologiesUsed}</p>
+    <ButtonComp link="https://github.com/DestineeAdams/portfolio-Website" text="see code" />
+
+</div>
+
+<style>
+    h5 {
+        margin: 5%;
+        font-size: 100%;
+    }
+
+    p {
+        margin: 2%;
+        font-size: 70%;
+    }
+
+    div {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .card-container {
+        background-color: #b07bf0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2% 35%;
+        padding: 1% 1%;
+    }
+
+    img {
+        border-radius: 4px;
+        width: 60%;
+    }
+
+  
+</style>
