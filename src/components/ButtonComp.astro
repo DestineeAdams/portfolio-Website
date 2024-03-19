@@ -2,7 +2,6 @@
 interface Props {
 text: string;
 link: string;
-color: string;
 }
 
 const {link, text} = Astro.props;
@@ -19,15 +18,17 @@ const {link, text} = Astro.props;
        
         background-color: Transparent;
         
-        padding: 1% 1%;
+        padding: 1% 2%;
 
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 20%;
-        border-radius: 5%;
+        font-size: 100%;
+        font-weight: bolder;
         
         border: 2px solid #ffffff; 
+        border-radius: 12px;
+
         color: #ffffff;
         
     }
