@@ -1,0 +1,3 @@
+background #242323;
+text #ffffff
+accent #b07bf0;

@@ -1,0 +1,25 @@
+---
+import ButtonComp from '../components/ButtonComp.astro';
+
+interface Props {
+    title: string;
+    description: string;
+    technologiesUsed: string;
+    photoPath: string;
+}
+
+const { title, description, technologiesUsed, photoPath } = Astro.props;
+---
+
+
+
+    <form target="_blank" action="https://formsubmit.co/adestinee37@gmail.com" method="POST">
+
+        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        <textarea placeholder="Your Message" class="form-control" name="message" rows="5" cols="23"
+            required></textarea>
+
+        <button type="submit">Submit Form</button>
+
+    </form>

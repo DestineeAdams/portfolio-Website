@@ -1,8 +1,9 @@
 ---
 import Card from '../components/Card.astro';
 import ButtonComp from '../components/ButtonComp.astro';
-import navigationbar from '../components/navigationbar.astro';
-
+import Navigation from '../components/Navigation.astro';
+import form from '../layouts/form.astro';
+import '../styles/gobal.css';
 ---
 
 <!DOCTYPE html>
@@ -17,27 +18,10 @@ import navigationbar from '../components/navigationbar.astro';
 
 <body>
 
-    <navigationbar />
-    
-<nav>
-    <ul>
-        <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#">Intro</a></li>
+    <Navigation>
+    </Navigation>
 
-        <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#projects">Projects</a> </li>
-
-        <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#resume">Resume</a> </li>
-
-        <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="#contact">Contact</a> </li>
-
-        <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="blog">Blog</a> </li>
-
-        <li class="nav-item"> <a class="nav-link" style="color: #ffffff" href="art">Art</a> </li>
-    </ul>
-
-</nav>
-
-
-    <section class="intro">
+    <section class="intro" id="intro">
 
         <div class="headings">
 
@@ -58,8 +42,7 @@ import navigationbar from '../components/navigationbar.astro';
         </p>
     </section>
 
-
-    <section class="project">
+    <section class="project" id="project">
         <h1 class="headings ">Projects</h1>
 
         <Card title="This Webpage" description="Portfolio site made from scratch to show off projects"
@@ -68,38 +51,32 @@ import navigationbar from '../components/navigationbar.astro';
 
     </section>
 
-
-
-    <section class="resume">
+    <section class="resume" id="resume">
 
         <h1 class="headings">Find Me On The Web</h1>
 
 
         <div class="buttonContainer">
-            <ButtonComp link='../../Resume.pdf' text="resume"  />
-            <ButtonComp link='https://github.com/DestineeAdams' text="github"  />
+            <ButtonComp link='../../Resume.pdf' text="resume" />
+            <ButtonComp link='https://github.com/DestineeAdams' text="github" />
         </div>
     </section>
 
-    <section class="contact">
-
+    <section class="contact" id="contact">
         <div>
 
             <h1 class="headings "> Say Hello</h1>
-
-            <form target="_blank" action="https://formsubmit.co/adestinee37@gmail.com" method="POST">
-
-                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                <textarea placeholder="Your Message" class="form-control" name="message" rows="5" cols="40"
-                    required></textarea>
-
-                <button type="submit">Submit Form</button>
-
+            
+            <form>
             </form>
+
         </div>
     </section>
 
+
+    <footer>
+
+    </footer>
 </body>
 
 
@@ -107,56 +84,19 @@ import navigationbar from '../components/navigationbar.astro';
 
 
 <style>
-    img {
-        border-radius: 10px;
-    }
-
     body {
-        background-color: #212529;
-        color: #ffffff;
+        margin: auto;
+        font: san;
         text-align: center;
-
-    }
-
-    button {
-        background-color: Transparent;
-        margin: 5%;
-        padding: 2% 5%;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 15px;
-        border-radius: 5px;
-
-        border: 2px solid #ffffff;
-        color: #ffffff;
-
-    }
-
-    button:hover {
-        background-color: #ffffff;
-        color: #212529;
-        text-decoration: none;
-    }
-
-    section {
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-
-    form {
-        padding: 1% 30%;
-    }
-
-    .buttonContainer {
-        margin-top: 5%;
-    }
-
-    .headings {
-        margin-bottom: 5%;
+        background-color: #242323;
+        color: #ffffff
     }
 
     img {
-        margin-bottom: 5%;
+        margin: auto;
+    }
+
+    footer {
+        margin: 10%;
     }
 </style>
