@@ -1,3 +1,13 @@
-background #242323;
+
+
+
+
+
+
+
+
+
+background #242323
 text #ffffff
-accent #b07bf0;
+accent #b07bf0
+

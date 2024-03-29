@@ -1,0 +1,16 @@
+
+    body {
+        margin: auto;
+        font: san;
+        text-align: center;
+        background-color: #242323;
+        color: #ffffff
+    }
+
+    img {
+        margin: auto;
+    }
+
+    footer {
+        margin: 10%;
+    }

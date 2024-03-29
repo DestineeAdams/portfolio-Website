@@ -1,14 +1,6 @@
 ---
 import ButtonComp from '../components/ButtonComp.astro';
 
-interface Props {
-    title: string;
-    description: string;
-    technologiesUsed: string;
-    photoPath: string;
-}
-
-const { title, description, technologiesUsed, photoPath } = Astro.props;
 ---
 
 
@@ -21,5 +13,5 @@ const { title, description, technologiesUsed, photoPath } = Astro.props;
             required></textarea>
 
         <button type="submit">Submit Form</button>
-
+   
     </form>
