@@ -1,0 +1,17 @@
+
+html {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: rgb(4, 2, 31);
+    color: rgb(255, 105, 180);
+    font-family: sans-serif;
+
+    body {
+        font-family: "Lucida Console", "Courier New", monospace;
+        margin: 0 auto;
+        width: 75%;
+        text-align: center;
+    }
+
+    
+
+}

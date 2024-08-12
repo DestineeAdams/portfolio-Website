@@ -1,4 +1,13 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Pageheader from "../components/Pageheader.astro";
+
+import '../styles/global.css';
+
+
+const pageTitle = "Welcome to SEMII.SPACE";
+const subTitle = "";
+
 
 ---
 
@@ -8,9 +17,78 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>home</title>
 	</head>
+	
 	<body>
-		<h1>Astro</h1>
+		<BaseLayout >
+
+		<div class="container">
+
+			<div>
+				<Pageheader pageTitle={pageTitle} subTitle={subTitle} />
+					
+
+				<p>
+					<img src="../public/meInAHoody.png" alt="me In A Hoody" style="border-radius: 20%;"/>
+
+					Hi! I'm Semii! 
+					welcome to my website.
+			
+					I showcase my blog, art and, projects
+					I was inspired by these neocities, yesterwebsite,
+					indieweb and the push back against web3 and Centralisation of the web. 
+	
+				</p>
+			
+
+			</div>
+		
+		
+			<div>
+				<p>Some facts about me:</p>
+
+				<ol>
+					<li>I make my money by teching programing</li>
+					<li>running is my prefered form of exercise</li>
+					<li>I'm into chochet and drawing (not good at one either <i>yet</i>)</li>
+					<li>I prefer tea over coffee </li>
+					<li>If i had a super power it would be flight</li>
+				</ol>
+			</div>
+
+		</div>	
+
+		</BaseLayout>
+
 	</body>
 </html>
+
+
+<style>
+    .container {
+
+        padding: 15px;
+        margin-top: 50px;
+
+        background-color: #000000;
+
+        border: 2px solid;
+        border-color:#fffefe;
+        border-radius: 6px;
+
+
+    }
+
+	p{
+		text-align: left;
+		margin: auto 30%;
+	}
+
+	div{
+		margin-top: 20px;
+		text-align: left;
+	}
+
+  
+</style>
