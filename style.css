@@ -5,6 +5,10 @@ body {
   
 }
 
+img{ 
+  border-radius: 5px;
+}
+
 footer{
   background-color: #b07bf0;
 
