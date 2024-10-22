@@ -24,9 +24,17 @@ footer{
 }
 
 .description{
-  width: 50%;
+  /* width: 50%; */
   text-align: center;
 
+}
+#desState{
+  width: 60%;
+}
+
+
+p{
+  margin-top: 10px;
 }
 
 h3  {
