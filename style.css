@@ -20,7 +20,7 @@ footer{
 }
 
 #myname{
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .description{
@@ -28,6 +28,7 @@ footer{
   text-align: center;
 
 }
+
 #desState{
   width: 60%;
 }
@@ -145,6 +146,9 @@ label, input, button{
 
 @media (max-width: 660px) { 
 
+body{
+  background-color: gold;
+}
   .card-container{
     display: flex;
     flex-direction: column;
@@ -168,6 +172,15 @@ label, input, button{
 
   #profileImg{
     width: 10%;
+  }
+  
+  #desState{
+    width: 60%;
+    margin:1% 5%;
+  }
+  
+  #subtitle{
+    margin:1% 5%;
   }
 }
 
