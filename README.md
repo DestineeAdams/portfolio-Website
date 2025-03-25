@@ -7,7 +7,7 @@ A portfolio site built from scratch to showcase projects.
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choicehtml, JavaScript, CSS, bootstrap, github pages cPanel, and, formsubmit api
+**Tech used:** html, JavaScript, CSS, bootstrap, github pages cPanel, and, formsubmit api
 
 ## Optimizations
 In the future I could make the project tiles more interative
