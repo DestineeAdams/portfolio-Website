@@ -3,7 +3,7 @@ A portfolio site built from scratch to showcase projects.
 
 **Link to project:** https://semii.space
 
-![page demo gif](https://semii.space/files/profoilio.gif)
+[page demo gif](https://semii.space/files/profoilio.gif)
 
 ## How It's made:
 
