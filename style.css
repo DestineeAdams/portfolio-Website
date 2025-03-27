@@ -5,6 +5,9 @@ body {
   
 }
 
+.home > div > img{
+  width: 5%;
+}
 
 img{ 
   border-radius: 5px;
@@ -144,7 +147,7 @@ label, input, button{
 
 
 
-@media (max-width: 660px) { 
+@media screen and (max-width: 660px) { 
 
 
   .card-container{
@@ -180,11 +183,19 @@ label, input, button{
   #subtitle{
     margin:1% 5%;
   }
+  
+  .home > div > img{
+    width: 10%;
+  }
 }
 
  
-@media (max-width: 955px) { 
- 
+@media (max-width: 661px) and (max-width: 955px) { 
+  
+  .home > div > img{
+    width: 15%;
+  }
+  
   .card-container{
     display: flex;
     flex-direction: row;
