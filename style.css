@@ -1,8 +1,6 @@
 body {
   background-color: #242323;
-  color: rgb(255, 255, 255);
- 
-  
+  color: white;
 }
 
 
@@ -11,11 +9,11 @@ body {
   text-transform: uppercase;
 }
 
-.resume  .btn-light:hover{
+.resume .btn-light:hover{
   color: #ffffff;
 }
 
-.resume  .btn:hover{
+.resume .btn:hover{
   background-color: #b07bf02f;
 }
 
@@ -137,7 +135,7 @@ h1  {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   gap: 40px; 
   
@@ -175,6 +173,19 @@ a {
   .home > div > img{
     width: 15%;
   }
+  
+  #desState{
+    width:85%;
+  }
+  
+  .projects a {
+    padding: 0;
+  }
+  
+  .projects .btn{
+    padding: 2%;
+
+  }
 }
 
 @media (min-width: 425px) and (max-width: 768px){
@@ -185,6 +196,8 @@ a {
   /* .button-container{
     width: 1%;
   } */
+  
+
 }
 
 
@@ -194,7 +207,7 @@ a {
   }
   
   #desState {
-    width: 25%;
+    width: 40%;
   }
   
   /* .button-container{
@@ -209,7 +222,7 @@ a {
   }
   
   #desState {
-    width: 25%;
+    width: 40%;
   }
   
   /* .button-container{
