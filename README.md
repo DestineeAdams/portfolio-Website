@@ -19,3 +19,4 @@ Over the years, I learned a lot about:
 - how to set up and maintain web server.
 - how to use git and GitHub.
 - how to use CSS to make a responsive design.
+- 
