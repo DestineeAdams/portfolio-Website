@@ -1,5 +1,5 @@
 # Portfolio Website 
-A portfolio site built from scratch to showcase projects.
+A personal site built from scratch to showcase my work and projects. Includes Hosted with cPanel.
 
 **Link to project:** https://semii.space
 
