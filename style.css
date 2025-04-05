@@ -5,6 +5,20 @@ body {
   
 }
 
+
+.resume .btn-light{
+  /* color: #ffffff; */
+  text-transform: uppercase;
+}
+
+.resume  .btn-light:hover{
+  color: #ffffff;
+}
+
+.resume  .btn:hover{
+  background-color: #b07bf02f;
+}
+
 a {
   color:#242323;
 }
